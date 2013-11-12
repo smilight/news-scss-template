@@ -1,0 +1,60 @@
+
+@mixin cols($num) {
+  width: ($one_col * $num) + ($gutter * ($num - 1));
+}
+
+@mixin sub_cols($num_child, $num_parent) {
+  $parent_size: ($one_col * $num_parent) + ($gutter * ($num_parent - 1));
+  $child_size: ($one_col * $num_child) + ($gutter * ($num_child - 1));
+  margin-left: ($gutter / $parent_size) * 100%;
+  width: ($child_size / $parent_size) * 100%;
+}
+
+@mixin header_main{
+  color: $black;
+  font-family: $h-f-family;
+  font-size: $h-f-size;
+  font-weight: $h-f-weight;
+  line-height: $base-line-height;
+  margin-bottom: 10px;
+  position: relative;
+  text-align: left;
+  width: 100%;
+  text-transform: uppercase;
+  border-bottom: $h-f-border;
+  &:after{
+    color: $link;
+    content: ">>";
+    margin-left: 15px;
+  }
+}
+
+@mixin breakpoint($point) {
+  @if $point == 1300 {
+    @media (max-width: 81.250em) { @content; }
+  }
+  @else if $point == 960 {
+    @media (max-width: 59.875em) { @content; }
+  }
+  @else if $point == 800 {
+    @media (max-width: 50em) { @content; }
+  }
+  @else if $point == 600 {
+    @media (max-width: 37.500em) { @content; }
+  }
+  @else if $point == 480 {
+    @media (max-width: 30em) { @content; }
+  }
+  @else if $point == 320 {
+    @media (max-width: 20em)  { @content; }
+  }
+}
+
+@mixin allmaxwidth() {
+  @media (min-width: $w1300) { max-width: $w1300 !important;margin: 0 auto; }
+  @media (max-width: $w1300) { max-width: $w960 !important;margin: 0 auto; }
+  @media (max-width: $w960) { max-width: $w800 !important;margin: 0 auto; }
+  @media (max-width: $w800) { max-width: $w600 !important;margin: 0 auto; }
+  @media (max-width: $w600) { max-width: $w480 !important;margin: 0 auto; }
+  @media (max-width: $w480) { max-width: $w320 !important;margin: 0 auto; }
+}

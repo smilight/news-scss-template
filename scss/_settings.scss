@@ -1,0 +1,62 @@
+// Use Compass ('cause it rocks!)
+@import "compass";
+
+// Base Font
+$base-font-family: arial;
+$base-font-weight: normal;
+$base-font-size: 1.2em;
+$base-line-height: 18px;
+
+$h-f-family: verdana;
+$h-f-size: 0.8em;
+$h-f-weight:normal;
+$h-f-border:1px solid #7E7E7E;
+
+
+// Size
+
+$w1300: 81.250em;
+$w960: 60.000em;
+$w800: 50.000em;
+$w600: 37.500em;
+$w480: 30.000em;
+$w320: 20.000em;
+
+
+// Base
+
+$black-bg: url(../img/black-bg.jpg);
+
+//grids
+$cols: 12;
+$gutter: 0;
+
+//links
+$link:#25658e;
+$link-hover:#c60;
+
+//colors
+$black: #333333;
+$grey: #666666;
+$red: #770404;
+
+// Header
+
+
+
+// Footer
+$f-text: white;
+
+
+//temp
+
+$p-footer-color: white;
+$black: #333;
+$img-wrap-w: 100%;
+$img-wrap-h: 100%;
+$img-border: 3px solid;
+$size1: 5px;
+$size2: 10px;
+$p-size: 13px;
+$h1-size: 18px;
+$image-border: 3px solid grey;

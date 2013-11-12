@@ -1,0 +1,72 @@
+/* footer
+---------------------------------------------------------------------------------------------*/
+.footer {
+  background: $black-bg;
+  color: $f-text;
+  display: table;
+  width: 100%;
+  font-size: 0.9em;
+
+  p {
+    margin: 0
+  }
+
+  a {
+    text-decoration: none
+  }
+
+  ul, li {
+    list-style: none;
+    padding: 0
+  }
+
+  .f-inner {
+    float: none;
+    margin: 0 auto;
+    @include cols(12);
+    max-width: $w1300;
+    @include allmaxwidth();
+  }
+
+  .f-nav-wrapper {
+    @include cols(9);
+    float: right;
+    .f-menu {
+      @include cols(12);
+      display: table;
+      .f-nav-item {
+        display: table-cell;
+        text-align: left;
+      }
+    }
+  }
+
+  .f-team {
+    @include cols(3);
+    float: left;
+    margin-top: -2.500em;
+    li {
+      float: left;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .name {
+      font-weight: bold;
+      width: 100%;
+      float: left;
+      margin-top: 5px;
+    }
+  }
+
+  .f-copy {
+    @include cols(9);
+    float: right;
+  }
+
+  .f-counters {
+    @include cols(9);
+    float: right;
+    margin-top: 15px;
+    text-align: right;
+  }
+}

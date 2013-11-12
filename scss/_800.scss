@@ -1,0 +1,19 @@
+@include breakpoint(800) {
+  .footer {
+    .f-team {
+      margin-top: 0;
+    }
+    .f-nav-wrapper {
+      @include cols(12);
+      .f-menu {
+        .f-nav-item {
+          margin-bottom: 15px;
+          width: 33%;
+          float: left;
+          text-align: center;
+        }
+      }
+    }
+
+  }
+}

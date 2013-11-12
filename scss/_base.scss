@@ -1,0 +1,24 @@
+*{
+  @include box-sizing(border-box);
+}
+body{
+  font-size: 100%;
+  font-family: arial;
+}
+a{
+  color: $link;
+  &:hover{
+    color: $link-hover;
+  }
+}
+.fr{
+  float: right !important;
+}
+
+.bline1{
+  @include breakpoint(1300) { max-width: 60.000em !important; }
+  @include breakpoint(960) { max-width: 48.000em !important; }
+  @include breakpoint(800) { max-width: 37.500em !important; }
+  @include breakpoint(600) { max-width: 30.000em !important; }
+  @include breakpoint(480) { max-width: 20.000em !important; }
+}

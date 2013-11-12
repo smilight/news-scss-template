@@ -1,0 +1,1128 @@
+/*! normalize.css v1.1.2 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\0000322}}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\0000332}}
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\0000343}}
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address styling not present in IE 7/8/9, Firefox 3, and Safari 4.
+ * Known issue: no IE 6 support.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\0000353}}
+[hidden] {
+  display: none; }
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/**
+ * 1. Correct text resizing oddly in IE 6/7 when body `font-size` is set using
+ *    `em` units.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\0000368}}
+html {
+  font-size: 100%;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Address `font-family` inconsistency between `textarea` and other form
+ * elements.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\0000383}}
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif; }
+
+/**
+ * Address margins handled incorrectly in IE 6/7.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\0000391}}
+body {
+  margin: 0; }
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003103}}
+a:focus {
+  outline: thin dotted; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003112}}
+a:active,
+a:hover {
+  outline: 0; }
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/**
+ * Address font sizes and margins set differently in IE 6/7.
+ * Address font sizes within `section` and `article` in Firefox 4+, Safari 5,
+ * and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003126}}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003131}}
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003136}}
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003141}}
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003146}}
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003151}}
+h6 {
+  font-size: 0.67em;
+  margin: 2.33em 0; }
+
+/**
+ * Address styling not present in IE 7/8/9, Safari 5, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003160}}
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003169}}
+b,
+strong {
+  font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003173}}
+blockquote {
+  margin: 1em 40px; }
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003181}}
+dfn {
+  font-style: italic; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ * Known issue: no IE 6/7 normalization.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003190}}
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Address styling not present in IE 6/7/8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003200}}
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address margins set differently in IE 6/7.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003210}}
+p,
+pre {
+  margin: 1em 0; }
+
+/**
+ * Correct font family set oddly in IE 6, Safari 4/5, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003221}}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em; }
+
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003231}}
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+/**
+ * Address CSS quotes not supported in IE 6/7.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003241}}
+q {
+  quotes: none; }
+
+/**
+ * Address `quotes` property not supported in Safari 4.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003250}}
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003259}}
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003268}}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003275}}
+sup {
+  top: -0.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003279}}
+sub {
+  bottom: -0.25em; }
+
+/* ==========================================================================
+   Lists
+   ========================================================================== */
+/**
+ * Address margins set differently in IE 6/7.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003294}}
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003298}}
+dd {
+  margin: 0 0 0 40px; }
+
+/**
+ * Address paddings set differently in IE 6/7.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003308}}
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px; }
+
+/**
+ * Correct list images handled incorrectly in IE 7.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003317}}
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none; }
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/**
+ * 1. Remove border when inside `a` element in IE 6/7/8/9 and Firefox 3.
+ * 2. Improve image quality when scaled in IE 7.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003331}}
+img {
+  border: 0;
+  /* 1 */
+  -ms-interpolation-mode: bicubic;
+  /* 2 */ }
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003340}}
+svg:not(:root) {
+  overflow: hidden; }
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/**
+ * Address margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003352}}
+figure {
+  margin: 0; }
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/**
+ * Correct margin displayed oddly in IE 6/7.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003364}}
+form {
+  margin: 0; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003372}}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct color not being inherited in IE 6/7/8/9.
+ * 2. Correct text not wrapping in Firefox 3.
+ * 3. Correct alignment displayed oddly in IE 6/7.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003384}}
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  white-space: normal;
+  /* 2 */
+  *margin-left: -7px;
+  /* 3 */ }
+
+/**
+ * 1. Correct font size not being inherited in all browsers.
+ * 2. Address margins set differently in IE 6/7, Firefox 3+, Safari 5,
+ *    and Chrome.
+ * 3. Improve appearance and consistency in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003401}}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+  vertical-align: baseline;
+  /* 3 */
+  *vertical-align: middle;
+  /* 3 */ }
+
+/**
+ * Address Firefox 3+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003414}}
+button,
+input {
+  line-height: normal; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 6+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003426}}
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ * 4. Remove inner spacing in IE 7 without affecting normal text inputs.
+ *    Known issue: inner spacing remains in IE 6.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003443}}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+  *overflow: visible;
+  /* 4 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003454}}
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * 1. Address box sizing set to content-box in IE 8/9.
+ * 2. Remove excess padding in IE 8/9.
+ * 3. Remove excess padding in IE 7.
+ *    Known issue: excess padding remains in IE 6.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003466}}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+  *height: 13px;
+  /* 3 */
+  *width: 13px;
+  /* 3 */ }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003479}}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003492}}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Remove inner padding and border in Firefox 3+.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003501}}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * 1. Remove default vertical scrollbar in IE 6/7/8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003511}}
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */ }
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_normalize\.scss}line{font-family:\00003524}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_base\.scss}line{font-family:\000031}}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_base\.scss}line{font-family:\000034}}
+body {
+  font-size: 100%;
+  font-family: arial; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_base\.scss}line{font-family:\000038}}
+a {
+  color: #25658e; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_base\.scss}line{font-family:\0000310}}
+  a:hover {
+    color: #cc6600; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_base\.scss}line{font-family:\0000314}}
+.fr {
+  float: right !important; }
+
+@media (max-width: 81.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_base\.scss}line{font-family:\0000318}}
+  .bline1 {
+    max-width: 60.000em !important; } }
+@media (max-width: 59.875em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_base\.scss}line{font-family:\0000318}}
+  .bline1 {
+    max-width: 48.000em !important; } }
+@media (max-width: 50em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_base\.scss}line{font-family:\0000318}}
+  .bline1 {
+    max-width: 37.500em !important; } }
+@media (max-width: 37.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_base\.scss}line{font-family:\0000318}}
+  .bline1 {
+    max-width: 30.000em !important; } }
+@media (max-width: 30em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_base\.scss}line{font-family:\0000318}}
+  .bline1 {
+    max-width: 20.000em !important; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\000034}}
+.line .col1, .line .col2, .line .col3, .line .col4, .line .col5, .line .col6, .line .col7, .line .col8, .line .col9, .line .col10, .line .col11, .line .col12 {
+  float: left;
+  margin-left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000310}}
+.line .col1 {
+  width: 8.33333%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000310}}
+.line .col2 {
+  width: 16.66667%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col2 .sub-col1 {
+    margin-left: 0;
+    width: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000310}}
+.line .col3 {
+  width: 25%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col3 .sub-col1 {
+    margin-left: 0;
+    width: 33.33333%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col3 .sub-col2 {
+    margin-left: 0;
+    width: 66.66667%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000310}}
+.line .col4 {
+  width: 33.33333%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col4 .sub-col1 {
+    margin-left: 0;
+    width: 25%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col4 .sub-col2 {
+    margin-left: 0;
+    width: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col4 .sub-col3 {
+    margin-left: 0;
+    width: 75%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000310}}
+.line .col5 {
+  width: 41.66667%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col5 .sub-col1 {
+    margin-left: 0;
+    width: 20%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col5 .sub-col2 {
+    margin-left: 0;
+    width: 40%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col5 .sub-col3 {
+    margin-left: 0;
+    width: 60%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col5 .sub-col4 {
+    margin-left: 0;
+    width: 80%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000310}}
+.line .col6 {
+  width: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col6 .sub-col1 {
+    margin-left: 0;
+    width: 16.66667%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col6 .sub-col2 {
+    margin-left: 0;
+    width: 33.33333%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col6 .sub-col3 {
+    margin-left: 0;
+    width: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col6 .sub-col4 {
+    margin-left: 0;
+    width: 66.66667%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col6 .sub-col5 {
+    margin-left: 0;
+    width: 83.33333%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000310}}
+.line .col7 {
+  width: 58.33333%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col7 .sub-col1 {
+    margin-left: 0;
+    width: 14.28571%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col7 .sub-col2 {
+    margin-left: 0;
+    width: 28.57143%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col7 .sub-col3 {
+    margin-left: 0;
+    width: 42.85714%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col7 .sub-col4 {
+    margin-left: 0;
+    width: 57.14286%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col7 .sub-col5 {
+    margin-left: 0;
+    width: 71.42857%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col7 .sub-col6 {
+    margin-left: 0;
+    width: 85.71429%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000310}}
+.line .col8 {
+  width: 66.66667%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col8 .sub-col1 {
+    margin-left: 0;
+    width: 12.5%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col8 .sub-col2 {
+    margin-left: 0;
+    width: 25%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col8 .sub-col3 {
+    margin-left: 0;
+    width: 37.5%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col8 .sub-col4 {
+    margin-left: 0;
+    width: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col8 .sub-col5 {
+    margin-left: 0;
+    width: 62.5%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col8 .sub-col6 {
+    margin-left: 0;
+    width: 75%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col8 .sub-col7 {
+    margin-left: 0;
+    width: 87.5%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000310}}
+.line .col9 {
+  width: 75%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col9 .sub-col1 {
+    margin-left: 0;
+    width: 11.11111%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col9 .sub-col2 {
+    margin-left: 0;
+    width: 22.22222%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col9 .sub-col3 {
+    margin-left: 0;
+    width: 33.33333%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col9 .sub-col4 {
+    margin-left: 0;
+    width: 44.44444%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col9 .sub-col5 {
+    margin-left: 0;
+    width: 55.55556%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col9 .sub-col6 {
+    margin-left: 0;
+    width: 66.66667%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col9 .sub-col7 {
+    margin-left: 0;
+    width: 77.77778%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col9 .sub-col8 {
+    margin-left: 0;
+    width: 88.88889%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000310}}
+.line .col10 {
+  width: 83.33333%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col10 .sub-col1 {
+    margin-left: 0;
+    width: 10%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col10 .sub-col2 {
+    margin-left: 0;
+    width: 20%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col10 .sub-col3 {
+    margin-left: 0;
+    width: 30%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col10 .sub-col4 {
+    margin-left: 0;
+    width: 40%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col10 .sub-col5 {
+    margin-left: 0;
+    width: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col10 .sub-col6 {
+    margin-left: 0;
+    width: 60%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col10 .sub-col7 {
+    margin-left: 0;
+    width: 70%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col10 .sub-col8 {
+    margin-left: 0;
+    width: 80%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col10 .sub-col9 {
+    margin-left: 0;
+    width: 90.0%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000310}}
+.line .col11 {
+  width: 91.66667%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col11 .sub-col1 {
+    margin-left: 0;
+    width: 9.09091%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col11 .sub-col2 {
+    margin-left: 0;
+    width: 18.18182%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col11 .sub-col3 {
+    margin-left: 0;
+    width: 27.27273%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col11 .sub-col4 {
+    margin-left: 0;
+    width: 36.36364%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col11 .sub-col5 {
+    margin-left: 0;
+    width: 45.45455%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col11 .sub-col6 {
+    margin-left: 0;
+    width: 54.54545%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col11 .sub-col7 {
+    margin-left: 0;
+    width: 63.63636%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col11 .sub-col8 {
+    margin-left: 0;
+    width: 72.72727%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col11 .sub-col9 {
+    margin-left: 0;
+    width: 81.81818%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col11 .sub-col10 {
+    margin-left: 0;
+    width: 90.90909%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000310}}
+.line .col12 {
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col12 .sub-col1 {
+    margin-left: 0;
+    width: 8.33333%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col12 .sub-col2 {
+    margin-left: 0;
+    width: 16.66667%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col12 .sub-col3 {
+    margin-left: 0;
+    width: 25%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col12 .sub-col4 {
+    margin-left: 0;
+    width: 33.33333%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col12 .sub-col5 {
+    margin-left: 0;
+    width: 41.66667%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col12 .sub-col6 {
+    margin-left: 0;
+    width: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col12 .sub-col7 {
+    margin-left: 0;
+    width: 58.33333%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col12 .sub-col8 {
+    margin-left: 0;
+    width: 66.66667%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col12 .sub-col9 {
+    margin-left: 0;
+    width: 75%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col12 .sub-col10 {
+    margin-left: 0;
+    width: 83.33333%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+  .line .col12 .sub-col11 {
+    margin-left: 0;
+    width: 91.66667%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000322}}
+.line > :first-child,
+.line .line > :first-child {
+  margin-left: 0; }
+
+/* footer
+---------------------------------------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\000033}}
+.footer {
+  background: url(../img/black-bg.jpg);
+  color: white;
+  display: table;
+  width: 100%;
+  font-size: 0.9em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000310}}
+  .footer p {
+    margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000314}}
+  .footer a {
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000318}}
+  .footer ul, .footer li {
+    list-style: none;
+    padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000323}}
+  .footer .f-inner {
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 81.25em; }
+    @media (min-width: 81.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000323}}
+      .footer .f-inner {
+        max-width: 81.25em !important;
+        margin: 0 auto; } }
+    @media (max-width: 81.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000323}}
+      .footer .f-inner {
+        max-width: 60em !important;
+        margin: 0 auto; } }
+    @media (max-width: 60em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000323}}
+      .footer .f-inner {
+        max-width: 50em !important;
+        margin: 0 auto; } }
+    @media (max-width: 50em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000323}}
+      .footer .f-inner {
+        max-width: 37.5em !important;
+        margin: 0 auto; } }
+    @media (max-width: 37.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000323}}
+      .footer .f-inner {
+        max-width: 30em !important;
+        margin: 0 auto; } }
+    @media (max-width: 30em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000323}}
+      .footer .f-inner {
+        max-width: 20em !important;
+        margin: 0 auto; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000331}}
+  .footer .f-nav-wrapper {
+    width: 75%;
+    float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000334}}
+    .footer .f-nav-wrapper .f-menu {
+      width: 100%;
+      display: table; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000337}}
+      .footer .f-nav-wrapper .f-menu .f-nav-item {
+        display: table-cell;
+        text-align: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000344}}
+  .footer .f-team {
+    width: 25%;
+    float: left;
+    margin-top: -2.500em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000348}}
+    .footer .f-team li {
+      float: left;
+      width: 100%;
+      margin-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000353}}
+    .footer .f-team .name {
+      font-weight: bold;
+      width: 100%;
+      float: left;
+      margin-top: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000361}}
+  .footer .f-copy {
+    width: 75%;
+    float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000366}}
+  .footer .f-counters {
+    width: 75%;
+    float: right;
+    margin-top: 15px;
+    text-align: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\000031}}
+.h-nav-wrapper {
+  height: 100%;
+  width: 100%;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\000035}}
+  .h-nav-wrapper a {
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\000036}}
+    .h-nav-wrapper a:hover {
+      text-decoration: underline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000310}}
+  .h-nav-wrapper .h-nav-open {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    display: none;
+    line-height: 1;
+    margin: 9px auto 0;
+    padding: 0;
+    width: 43px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000319}}
+    .h-nav-wrapper .h-nav-open:after {
+      background: none repeat scroll 0 0 #FFFFFF;
+      bottom: -4px;
+      content: "";
+      height: 1px;
+      left: 0;
+      position: absolute;
+      width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000328}}
+    .h-nav-wrapper .h-nav-open:before {
+      background: none repeat scroll 0 0 #FFFFFF;
+      bottom: -7px;
+      content: "";
+      height: 1px;
+      left: 0;
+      position: absolute;
+      width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000338}}
+  .h-nav-wrapper .h-nav {
+    display: table;
+    width: 100%;
+    max-width: 81.25em;
+    width: 100%;
+    position: relative;
+    padding: 0; }
+    @media (min-width: 81.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000338}}
+      .h-nav-wrapper .h-nav {
+        max-width: 81.25em !important;
+        margin: 0 auto; } }
+    @media (max-width: 81.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000338}}
+      .h-nav-wrapper .h-nav {
+        max-width: 60em !important;
+        margin: 0 auto; } }
+    @media (max-width: 60em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000338}}
+      .h-nav-wrapper .h-nav {
+        max-width: 50em !important;
+        margin: 0 auto; } }
+    @media (max-width: 50em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000338}}
+      .h-nav-wrapper .h-nav {
+        max-width: 37.5em !important;
+        margin: 0 auto; } }
+    @media (max-width: 37.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000338}}
+      .h-nav-wrapper .h-nav {
+        max-width: 30em !important;
+        margin: 0 auto; } }
+    @media (max-width: 30em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000338}}
+      .h-nav-wrapper .h-nav {
+        max-width: 20em !important;
+        margin: 0 auto; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000347}}
+  .h-nav-wrapper .h-nav-item {
+    display: table-cell;
+    border-bottom: 1px solid #808080;
+    border-top: 1px solid #808080;
+    padding: 10px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000353}}
+    .h-nav-wrapper .h-nav-item:hover .h-nav-item-h {
+      color: #333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000356}}
+    .h-nav-wrapper .h-nav-item:hover .h-nav-item-child {
+      display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000358}}
+      .h-nav-wrapper .h-nav-item:hover .h-nav-item-child div {
+        width: 31%;
+        float: left;
+        padding: 0 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000365}}
+    .h-nav-wrapper .h-nav-item .h-nav-item-h {
+      font-size: 14px;
+      font-weight: bold;
+      text-transform: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000371}}
+  .h-nav-wrapper .h-nav-item-child {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 1px solid #808080;
+    border-top: 1px solid #808080;
+    box-shadow: 0 4px 6px #808080;
+    display: none;
+    left: 0;
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    z-index: 2; }
+    @media (min-width: 81.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000371}}
+      .h-nav-wrapper .h-nav-item-child {
+        max-width: 81.25em !important;
+        margin: 0 auto; } }
+    @media (max-width: 81.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000371}}
+      .h-nav-wrapper .h-nav-item-child {
+        max-width: 60em !important;
+        margin: 0 auto; } }
+    @media (max-width: 60em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000371}}
+      .h-nav-wrapper .h-nav-item-child {
+        max-width: 50em !important;
+        margin: 0 auto; } }
+    @media (max-width: 50em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000371}}
+      .h-nav-wrapper .h-nav-item-child {
+        max-width: 37.5em !important;
+        margin: 0 auto; } }
+    @media (max-width: 37.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000371}}
+      .h-nav-wrapper .h-nav-item-child {
+        max-width: 30em !important;
+        margin: 0 auto; } }
+    @media (max-width: 30em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000371}}
+      .h-nav-wrapper .h-nav-item-child {
+        max-width: 20em !important;
+        margin: 0 auto; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000383}}
+    .h-nav-wrapper .h-nav-item-child .nav-child-l {
+      border-right: 1px solid gray; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000386}}
+    .h-nav-wrapper .h-nav-item-child .nav-child-c {
+      border-right: 1px solid gray; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000389}}
+    .h-nav-wrapper .h-nav-item-child .nav-child-r {
+      border: none; }
+
+@media (max-width: 59.875em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_960\.scss}line{font-family:\000033}}
+  .footer .f-team {
+    margin-top: -3.5em; } }
+@media (max-width: 50em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_800\.scss}line{font-family:\000033}}
+  .footer .f-team {
+    margin-top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_800\.scss}line{font-family:\000036}}
+  .footer .f-nav-wrapper {
+    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_800\.scss}line{font-family:\000039}}
+    .footer .f-nav-wrapper .f-menu .f-nav-item {
+      margin-bottom: 15px;
+      width: 33%;
+      float: left;
+      text-align: center; } }
+@media (max-width: 37.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_600\.scss}line{font-family:\000033}}
+  .footer .f-nav-wrapper {
+    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_600\.scss}line{font-family:\000036}}
+    .footer .f-nav-wrapper .f-menu .f-nav-item {
+      width: 50%;
+      float: left;
+      text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_600\.scss}line{font-family:\0000313}}
+  .footer .f-copy {
+    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_600\.scss}line{font-family:\0000316}}
+  .footer .f-team {
+    width: 100%; } }
