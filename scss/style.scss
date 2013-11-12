@@ -1,17 +1,17 @@
 @import "normalize";
 @import "settings";
-@import "mixins";
-@import "base";
-@import "grid";
-@import "header";
-@import "footer";
-@import "nav";
-@import "rubrika";
+@import "main/mixins";
+@import "main/base";
+@import "main/grid";
+@import "main/header";
+@import "main/footer";
+@import "blocks/nav";
+@import "blocks/rubrika";
 
 
 //@import "old/settings";
 //@import "old/adverts";
-//@import "old/base";
+//@import "old/main";
 //@import "old/blogers";
 //@import "old/buttons";
 //@import "old/carousel";
@@ -29,9 +29,9 @@
 //@import "old/thumbnails";
 
 
-@import "1300";
-@import "960"; 
-@import "800";
-@import "600";
-@import "480";
-@import "320";  
+@import "responsive/1300";
+@import "responsive/960";
+@import "responsive/800";
+@import "responsive/600";
+@import "responsive/480";
+@import "responsive/320";

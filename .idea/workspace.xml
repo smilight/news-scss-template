@@ -2,52 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97137618-3177-43e4-94f9-4b0f47621a1b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/old/_adverts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/old/_base.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/old/_blogers.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/old/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/old/_carousel.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/old/_common.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/old/_footer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/old/_grids.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/old/_header.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/old/_last-news_special-bl.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/old/_media.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/old/_moscvichka.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/old/_navigation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/old/_news-bl.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/old/_pdf.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/old/_pollblock.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/_rubrika.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/old/_settings.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/old/_sms-port.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/old/_thumbnails.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/block1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/block2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/block3.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/block4.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photogal.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rubrika.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/videogal.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/content/column.jpg" afterPath="$PROJECT_DIR$/img/content/column0.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_base.scss" afterPath="$PROJECT_DIR$/scss/_base.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_grid.scss" afterPath="$PROJECT_DIR$/scss/_grid.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_mixins.scss" afterPath="$PROJECT_DIR$/scss/_mixins.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_nav.scss" afterPath="$PROJECT_DIR$/scss/_nav.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_normalize.scss" afterPath="$PROJECT_DIR$/scss/_normalize.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_settings.scss" afterPath="$PROJECT_DIR$/scss/_settings.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/plugins.js" afterPath="$PROJECT_DIR$/js/plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/_1300.scss" afterPath="$PROJECT_DIR$/scss/responsive/_1300.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/_320.scss" afterPath="$PROJECT_DIR$/scss/responsive/_320.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/_480.scss" afterPath="$PROJECT_DIR$/scss/responsive/_480.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/_600.scss" afterPath="$PROJECT_DIR$/scss/responsive/_600.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/_800.scss" afterPath="$PROJECT_DIR$/scss/responsive/_800.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/_960.scss" afterPath="$PROJECT_DIR$/scss/responsive/_960.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/_base.scss" afterPath="$PROJECT_DIR$/scss/main/_base.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/_footer.scss" afterPath="$PROJECT_DIR$/scss/main/_footer.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/_grid.scss" afterPath="$PROJECT_DIR$/scss/main/_grid.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/_header.scss" afterPath="$PROJECT_DIR$/scss/main/_header.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/_mixins.scss" afterPath="$PROJECT_DIR$/scss/main/_mixins.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/_nav.scss" afterPath="$PROJECT_DIR$/scss/blocks/_nav.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/_rubrika.scss" afterPath="$PROJECT_DIR$/scss/blocks/_rubrika.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js" afterPath="$PROJECT_DIR$/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/style.scss" afterPath="$PROJECT_DIR$/scss/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="news.iws" />
@@ -154,7 +123,7 @@
         </entry>
       </file>
       <file leaf-file-name="_base.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/_base.scss">
+        <entry file="file://$PROJECT_DIR$/scss/main/_base.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state line="32" column="22" selection-start="674" selection-end="674" vertical-scroll-proportion="-17.185184" vertical-offset="112" max-vertical-offset="1314">
               <folding />
@@ -163,7 +132,7 @@
         </entry>
       </file>
       <file leaf-file-name="_rubrika.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/_rubrika.scss">
+        <entry file="file://$PROJECT_DIR$/scss/blocks/_rubrika.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="108">
               <folding>
@@ -190,7 +159,7 @@
       <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="16" selection-start="158" selection-end="158" vertical-scroll-proportion="0.1773399" vertical-offset="0" max-vertical-offset="812">
+            <state line="13" column="21" selection-start="274" selection-end="274" vertical-scroll-proportion="0.28817734" vertical-offset="0" max-vertical-offset="812">
               <folding />
             </state>
           </provider>
@@ -223,13 +192,13 @@
         <option value="$PROJECT_DIR$/scss/_mixins.scss" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/slider.php" />
-        <option value="$PROJECT_DIR$/scss/style.scss" />
         <option value="$PROJECT_DIR$/scss/_normalize.scss" />
         <option value="$PROJECT_DIR$/rubrika.php" />
         <option value="$PROJECT_DIR$/scss/_base.scss" />
         <option value="$PROJECT_DIR$/scss/_rubrika.scss" />
         <option value="$PROJECT_DIR$/block2.php" />
         <option value="$PROJECT_DIR$/block1.php" />
+        <option value="$PROJECT_DIR$/scss/style.scss" />
       </list>
     </option>
   </component>
@@ -319,7 +288,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/scss/responsive" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -340,6 +309,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/scss" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scss/responsive" />
+      <recent name="$PROJECT_DIR$/scss/main" />
+      <recent name="$PROJECT_DIR$/scss/blocks" />
     </key>
   </component>
   <component name="RunManager">
@@ -382,15 +356,21 @@
       <created>1384172970011</created>
       <updated>1384172970011</updated>
     </task>
+    <task id="LOCAL-00001" summary="first">
+      <created>1384285731931</created>
+      <updated>1384285731931</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-4" width="1682" height="993" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25535715" sideWeight="0.671659" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25535715" sideWeight="0.6705069" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -415,6 +395,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -455,14 +437,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_base.scss">
+    <entry file="file://$PROJECT_DIR$/scss/main/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="22" selection-start="674" selection-end="674" vertical-scroll-proportion="-17.185184" vertical-offset="112" max-vertical-offset="1314">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_grid.scss">
+    <entry file="file://$PROJECT_DIR$/scss/main/_grid.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="222" selection-end="222" vertical-scroll-proportion="0.25126904" vertical-offset="0" max-vertical-offset="788">
           <folding />
@@ -476,7 +458,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_rubrika.scss">
+    <entry file="file://$PROJECT_DIR$/scss/blocks/_rubrika.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="108">
           <folding>
@@ -497,7 +479,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_mixins.scss">
+    <entry file="file://$PROJECT_DIR$/scss/main/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="13" selection-start="87" selection-end="87" vertical-scroll-proportion="0.06650246" vertical-offset="0" max-vertical-offset="1206">
           <folding />
@@ -580,7 +562,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="16" selection-start="158" selection-end="158" vertical-scroll-proportion="0.1773399" vertical-offset="0" max-vertical-offset="812">
+        <state line="13" column="21" selection-start="274" selection-end="274" vertical-scroll-proportion="0.28817734" vertical-offset="0" max-vertical-offset="812">
           <folding />
         </state>
       </provider>
