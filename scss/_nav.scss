@@ -48,17 +48,23 @@
     display: table-cell;
     border-bottom: 1px solid #808080;
     border-top: 1px solid #808080;
-    padding: 10px 0;
+    text-align: center;
+    >a{
+      display: block;
+      border-right: 1px solid #808080;
+      padding: 10px 0;
+      margin: 2px 0;
+    }
     &:hover {
       .h-nav-item-h {
         color: #333;
       }
       .h-nav-item-child {
-        display: block;
+        display: table;
         div {
           width: 31%;
-          float: left;
-          padding: 0 15px;
+          display: table-cell;
+          padding: 0 10px;
         }
       }
     }
@@ -78,8 +84,10 @@
     position: absolute;
     top: 35px;
     width: 100%;
+    text-align: left;
     z-index: 2;
     @include allmaxwidth();
+
     .nav-child-l {
       border-right: 1px solid gray;
     }

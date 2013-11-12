@@ -1,6 +1,7 @@
 
 @mixin cols($num) {
   width: ($one_col * $num) + ($gutter * ($num - 1));
+  float: left;
 }
 
 @mixin sub_cols($num_child, $num_parent) {
@@ -8,6 +9,7 @@
   $child_size: ($one_col * $num_child) + ($gutter * ($num_child - 1));
   margin-left: ($gutter / $parent_size) * 100%;
   width: ($child_size / $parent_size) * 100%;
+  float: left;
 }
 
 @mixin header_main{

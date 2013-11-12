@@ -1,0 +1,40 @@
+.rub-wrapper {
+  width: 40%;
+  float: left;
+  display: block;
+  margin: 0;
+  padding: 0 5px;
+  margin: 15px 0;
+  .rub-inner {
+
+  }
+  .rub-art,.rub-list{
+    width: 50%;
+    float: left;
+    display: block;
+    position: relative;
+  }
+  .rub-art{
+    .rub-art-link{
+
+    }
+    .rub-art-image{
+      border: 3px solid grey;
+      display: block;
+      position: relative;
+      width: 100%;
+      height: auto;
+    }
+    .rub-art-h{
+
+    }
+  }
+  .rub-list{
+    padding-left: 2em;
+    .rub-list-item{
+    }
+    .rub-list-link{
+      font-size: 0.8em;
+    }
+  }
+}

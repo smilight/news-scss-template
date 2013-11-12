@@ -1,5 +1,5 @@
 *{
-  @include box-sizing(border-box);
+  // @include box-sizing(border-box);
 }
 body{
   font-size: 100%;
@@ -21,4 +21,47 @@ a{
   @include breakpoint(800) { max-width: 37.500em !important; }
   @include breakpoint(600) { max-width: 30.000em !important; }
   @include breakpoint(480) { max-width: 20.000em !important; }
+}
+
+.b-h{
+  border-bottom: 1px solid #7E7E7E;
+  margin-bottom: 10px;
+  position: relative;
+  &:after{
+    color: #25658E;
+    content: ">>";
+    margin-left: 15px;
+  }
+}
+.b-h,.b-h a{
+  font-size: 0.7em;
+  font-weight: normal;
+  font-family: verdana;
+  line-height: 1.5em;
+  color: #444444;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+
+.video-link-s,.video-link-b{
+  background-image: url("../img/icons.png");
+  position: absolute;
+  display: block;
+  top: 5px;
+  z-index: 1;
+}
+.video-link-s{
+  background-position: -26px -28px;
+  height: 10px;
+  left: 5px;
+  top: 5px;
+  width: 15px;
+}
+.video-link-b{
+  background-position: -40px 0;
+  height: 25px;
+  right: 5px;
+  width: 38px;
 }

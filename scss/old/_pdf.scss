@@ -1,0 +1,52 @@
+.pdf-block {
+  display: table;
+  float: left;
+  margin-top: 15px;
+  padding: 5px;
+  @media all and (max-width: 1300px) {
+    width: 50%;
+    float: left;
+    margin-top: 0;
+
+  }
+
+  @media all and (max-width: 958px) {
+    width: 50%;
+  }
+  @media all and (max-width: 758px) {
+    width: 100%;
+    .ui-accordion-content {
+      width: 50%;
+      margin: 0 auto;
+    }
+    .ui-accordion-header-icon {
+      font-size: 24px;
+      font-weight: normal;
+      height: 25px;
+      line-height: 26px;
+      position: relative;
+      top: -6px;
+      width: 25px;
+      float: right;
+      color: black;
+      top: -6px;
+      right: -3px;
+      &:after{
+        background: none repeat scroll 0 0 #808080;
+        content: "+";
+        height: 100%;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        color: white;
+      }
+      &.ui-icon-triangle-1-s {
+        &:after {
+          content: '-';
+        }
+      }
+
+    }
+  }
+
+}

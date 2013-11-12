@@ -1,3 +1,21 @@
+<nav class="parrent-row pre-footer-navigation">
+    <ul class="pre-footer-menu">
+        <li class="pre-footer-menu-item"><a href="/daily/5">Город</a></li>
+        <li class="pre-footer-menu-item"><a href="/daily/4">Коридоры власти</a></li>
+        <li class="pre-footer-menu-item"><a href="/daily/9">Новые Округа</a></li>
+        <li class="pre-footer-menu-item"><a href="/daily/1">Происшествия</a></li>
+        <li class="pre-footer-menu-item"><a href="/daily/101">Общество</a></li>
+        <li class="pre-footer-menu-item"><a href="/daily/3">Культура</a></li>
+        <li class="pre-footer-menu-item"><a href="/daily/102">Звезды</a></li>
+        <li class="pre-footer-menu-item"><a href="/daily/8">Бизнес</a></li>
+        <li class="pre-footer-menu-item"><a href="/daily/2">Спорт</a></li>
+        <li class="pre-footer-menu-item"><a href="/daily/7">Наука</a></li>
+        <li class="pre-footer-menu-item"><a href="/daily/103">Зоопарк</a></li>
+        <li class="pre-footer-menu-item"><a href="/daily/104">Афиша</a></li>
+    </ul>
+
+</nav>
+
 <footer class="footer">
     <section class="f-inner bline">
 

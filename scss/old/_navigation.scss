@@ -1,0 +1,220 @@
+/*---------------------------------------------------- main menu  -----------------------------------------------------*/
+
+.main-menu-wrapper {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  .open-menu-btn {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    display: none;
+    line-height: 1;
+    margin: 9px auto 0;
+    padding: 0;
+    width: 43px;
+    &:after {
+      background: none repeat scroll 0 0 #FFFFFF;
+      bottom: -4px;
+      content: "";
+      height: 1px;
+      left: 0;
+      position: absolute;
+      width: 100%;
+    }
+    &:before {
+      background: none repeat scroll 0 0 #FFFFFF;
+      bottom: -7px;
+      content: "";
+      height: 1px;
+      left: 0;
+      position: absolute;
+      width: 100%;
+    }
+    @media all and (max-width: 768px) {
+      display: block;
+      position: relative;
+      top: -17px;
+    }
+  }
+  .main-menu {
+    display: table;
+    width: 100%;
+    .main-menu-item {
+      display: table-cell;
+      border-bottom: 1px solid #808080;
+      border-top: 1px solid #808080;
+      &:hover {
+        .main-menu-item-title {
+          color: #333;
+        }
+        .main-menu-pop-up {
+          display: block;
+          div {
+            width: 31%;
+            float: left;
+            padding: 0 15px;
+          }
+        }
+      }
+      .main-menu-item-title {
+        border-right: 1px solid #808080;
+        display: block;
+        padding: 4px 0;
+        margin: 5px 0;
+        text-align: center;
+        width: 100%;
+        font-size: 14px;
+        color: #4c86ac;
+        font-weight: bold;
+        &:last-child {
+          a {
+            border: none;
+            border-right: 0;
+          }
+        }
+      }
+      .main-menu-pop-up {
+        background: none repeat scroll 0 0 #FFFFFF;
+        border-bottom: 1px solid #808080;
+        border-top: 1px solid #808080;
+        box-shadow: 0 4px 6px #808080;
+        display: none;
+        left: 0;
+        position: absolute;
+        top: 35px;
+        width: 100%;
+        z-index: 2;
+        a {
+          border: medium none;
+          text-align: left;
+        }
+        li {
+          display: block;
+        }
+        .pop-up-left-bl {
+          border-right: 1px solid gray;
+        }
+        .pop-up-center-bl {
+          border-right: 1px solid gray;
+        }
+        .pop-up-right-bl {
+          border: none;
+        }
+        .pop-up-header {
+          font-size: 14px;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+      }
+      &:last-child {
+        .main-menu-item-title {
+          border: none;
+        }
+      }
+    }
+  }
+  @media all and (max-width: 1300px) {
+    .main-menu {
+      .main-menu-item {
+        .main-menu-item-title {
+          font-size: 13px;
+        }
+
+      }
+    }
+
+  }
+  @media all and (max-width: 958px) {
+    .main-menu {
+      .main-menu-item {
+        display: block;
+        float: left;
+        width: 16%;
+
+      }
+    }
+  }
+  @media all and (max-width: 768px) {
+    margin-top: -25px;
+    .main-menu {
+      display: none;
+      .main-menu-item {
+        display: block;
+        float: left;
+        width: 50%;
+
+      }
+    }
+    .open-menu-btn {
+      display: block;
+      position: relative;
+      top: -15px;
+
+    }
+  }
+  @media all and (max-width: 600px) {
+    margin-top: -25px;
+  }
+  @media all and (max-width: 480px) {
+    .open-menu-btn {
+      top:-13px;
+    }
+  }
+
+}
+
+/*---------------------------------------------------- end main menu  -----------------------------------------------------*/
+/*---------------------------------------------------- pre-footer menu  -----------------------------------------------------*/
+
+.pre-footer-navigation {
+  .pre-footer-menu {
+    display: table;
+    margin: 20px 0;
+    width: 100%;
+    .pre-footer-menu-item {
+      display: table-cell;
+      a {
+        font-weight: bold;
+      }
+      @media all and (max-width: 768px) {
+        max-width: 600px;
+        width: 50%;
+        display: block;
+        float: left;
+      }
+    }
+  }
+}
+
+/*---------------------------------------------------- end pre-footer menu  -----------------------------------------------------*/
+
+/*---------------------------------------------------- footer menu  -----------------------------------------------------*/
+
+.footer-navigation {
+  margin-bottom: 20px;
+  margin-top: 5px;
+  width: 74%;
+  float: right;
+  @media all and (max-width: 958px) {
+    max-width: 768px;
+    width: 100%;
+  }
+  .footer-menu {
+    display: table;
+    width: 100%;
+    .footer-menu-item {
+      display: table-cell;
+      @media all and (max-width: 768px) {
+        max-width: 600px;
+        width: 50%;
+        display: block;
+        float: left;
+      }
+    }
+  }
+}
+
+/*---------------------------------------------------- end footer menu  -----------------------------------------------------*/
+
+

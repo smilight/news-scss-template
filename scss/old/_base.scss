@@ -1,0 +1,67 @@
+/*---------------------------------------------------- base -----------------------------------------------------*/
+//* {
+//  transition: all 0.5s;
+//  -o-transition: all 0.5s;
+//  -moz-transition: all 0.5s;
+//  -webkit-transition: all 0.5s;
+//}
+
+.parrent-row {
+  overflow: visible;
+  z-index: 1;
+  &.block1{
+    z-index: 1;
+  }
+  &.block3{
+    z-index: 0;
+  }
+}
+
+.buttons {
+  display: none;
+  @media all and (max-width: 768px) {
+    display: block;
+  }
+
+}
+
+.red {
+  color: #770404 !important;
+}
+
+@media all and (max-width: 5000px) {
+  .parrent-row, .main-menu, .logo-string, .footer-ads-block {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+  }
+}
+@media all and (max-width: 1300px) {
+  .parrent-row, .main-menu, .logo-string, .footer-ads-block {
+    max-width: 959px;
+  }
+}
+@media all and (max-width: 958px) {
+  .parrent-row, .main-menu, .logo-string, .footer-ads-block {
+    max-width: 768px;
+  }
+}
+@media all and (max-width: 768px) {
+  .parrent-row, .main-menu, .logo-string, .footer-ads-block {
+    max-width: 600px;
+  }
+}
+@media all and (max-width: 600px) {
+  .parrent-row, .main-menu, .logo-string, .footer-ads-block {
+    max-width: 480px;
+  }
+}
+@media all and (max-width: 480px) {
+  .parrent-row, .main-menu, .logo-string, .footer-ads-block {
+    max-width: 320px;
+  }
+  .parrent-row {
+    padding: 0 10px !important;
+  }
+}
+

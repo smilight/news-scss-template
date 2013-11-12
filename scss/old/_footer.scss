@@ -1,0 +1,82 @@
+/* footer
+---------------------------------------------------------------------------------------------*/
+.footer{
+  background: $black-bg;
+  color: $p-footer-color;
+  .footer-inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    display: table;
+    width: 100%;
+    @media all and (max-width: 1300px) {
+      width: 959px;
+    }
+    @media all and (max-width: 958px) {
+      width: 768px;
+    }
+    @media all and (max-width: 800px) {
+      width: 600px;
+    }
+    @media all and (max-width: 600px) {
+      width: 480px;
+    }
+    @media all and (max-width: 480px) {
+      width: 320px;
+    }
+    .footer-vmd-team{
+      width: 24%;
+      float: left;
+      margin-top: -40px;
+      @media all and (max-width: 958px) {
+        margin-top: 0;
+      }
+      @media all and (max-width: 800px) {
+        max-width: 600px;
+        width: 100%;
+      }
+
+    }
+    .footer-copyrights{
+      width: 74%;
+      float: right;
+      @media all and (max-width: 800px) {
+        max-width: 600px;
+        width: 100%;
+      }
+
+      p{
+        color: white;
+      }
+    }
+    .footer-counters{
+      width: 74%;
+      float: right;
+      @media all and (max-width: 800px) {
+        display: none;
+      }
+
+    }
+  }
+}
+
+
+ul.f-menu-2 {
+  display: table;
+  width: 100%;
+  li {
+    text-align: center;
+  }
+}
+
+.f-menu-1, .f-menu-2 {
+  li {
+    display: inline-block;
+    margin: 15px 0;
+    font-weight: bold
+  }
+}
+
+.team li {
+  margin: 10px 0;
+}

@@ -1,0 +1,99 @@
+/* btn group
+----------------------------------------------------------------------------------------------------*/
+
+input[type="radio"] {
+  display: none;
+  &+label {
+    display: block;
+    margin: 10px 0 10px 30px;
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      left: -20px;
+      top: 2px;
+      width: 13px;
+      height: 13px;
+      background: #000;
+      border-radius: 50%;
+    }
+  }
+}
+
+input[type="radio"]:checked {
+  &+label {
+    color: $a-color;
+    &:after {
+      content: "";
+      position: absolute;
+      left: -17px;
+      top: 5px;
+      width: 7px;
+      height: 7px;
+      background: #fff;
+      border-radius: 50%;
+
+    }
+  }
+
+}
+
+/*---------------------------------------------------- social links  -----------------------------------------------------*/
+
+.social-links {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: -75px;
+  width: 290px;
+  @media all and (max-width: 958px) {
+    top:-78px;
+  }
+  @media all and (max-width: 600px) {
+    top:-70px;
+  }
+
+    .social-links-link-wrapper {
+    display: block;
+    float: left;
+      &:first-child .social-links-link{
+        margin-left: 0;
+      }
+      &:last-child .social-links-link{
+        margin-right: 0;
+      }
+      .social-links-link {
+      background: url("../images/icons.png") repeat scroll transparent;
+      display: block;
+      height: 23px;
+      width: 23px;
+      margin: 0 15px;
+      position: relative;
+      &:hover {
+        top: 1px;
+        left: 1px
+      }
+      &.fb {
+        background-position: -122px -70px;
+      }
+      &.vk {
+        background-position: -74px -70px;
+      }
+      &.tw {
+        background-position: -98px -70px;
+      }
+      &.lj {
+        background-position: -50px -70px;
+      }
+      &.od {
+        background-position: -3px -70px;
+      }
+      &.gp {
+        background-position: -147px -70px;
+      }
+      &.ya {
+        background-position: -26px -70px;
+      }
+    }
+  }
+}

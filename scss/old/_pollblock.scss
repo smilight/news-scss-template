@@ -1,0 +1,142 @@
+.pollblock_ads {
+  float: right;
+  padding: 0;
+  width: 40%;
+  position: absolute;
+  right: 0;
+  .pollblock {
+    margin-bottom: 15px;
+    display: block;
+    width: 50%;
+    float: right;
+    padding: 0 5px;
+    height: 420px;
+    //background-color: #ffffff;
+    .pollblock-header {
+      background-color: #595959;
+      color: #ffffff;
+      padding: 0 5px;
+    }
+    .pollblock-submit {
+      width: 100%;
+      border: none;
+      padding: 2px 0;
+      text-align: center;
+      background: #595959;
+      color: white;
+      cursor: pointer;
+      text-transform: uppercase;
+      &:hover {
+        background-color: white;
+        color: black;
+      }
+    }
+
+  }
+  .ads-block-first {
+    .inner:first-child {
+      width: 50%;
+      float: left;
+      margin-top: 630px;
+      max-height: 345px;
+      overflow: hidden;
+
+    }
+    .inner {
+      float: right;
+      width: 50%;
+      padding: 0 5px;
+    }
+    .social_container {
+      padding: 0 5px;
+      float: right;
+      width: 50%;
+    }
+  }
+  @media all and (max-width: 1300px) {
+    position: absolute;
+    right: 0;
+    top: 635px;
+    width: 50%;
+    .pollblock {
+      width: 50%;
+      float: left;
+      padding: 0 5px;
+    }
+    .ads-block-first {
+      width: 50%;
+      float: right;
+      padding: 0 5px;
+      position: relative;
+      z-index: 1;
+      .inner:first-child {
+        width: 100%;
+        float: left;
+        margin-top: 0px;
+        max-height: 345px;
+        overflow: hidden;
+      }
+      .inner {
+        float: right;
+        width: 100%;
+      }
+      .social_container {
+        float: right;
+        width: 100%;
+      }
+
+    }
+  }
+  @media all and (max-width: 958px) {
+    width: 33%;
+    .ads-block-first {
+      width: 100%;
+      float: right;
+      padding: 0 5px;
+      .inner:first-child {
+        width: 100%;
+        float: left;
+        margin-top: 225px;
+        margin-bottom: 15px;
+        max-height: 345px;
+        overflow: hidden;
+      }
+      .inner {
+        float: right;
+        width: 100%;
+      }
+      .social_container {
+        display: none;
+      }
+
+    }
+    .pollblock {
+      width: 100%;
+      float: left;
+      padding: 0 5px;
+      height: 350px;
+    }
+
+  }
+  @media all and (max-width: 768px) {
+    top: 420px;
+    .pollblock {
+      height: 470px;
+    }
+    .ads-block-first {
+      .inner {
+        display: none;
+      }
+      .inner:first-child {
+        margin-top: 230px;
+        display: block;
+      }
+
+    }
+
+  }
+  @media all and (max-width: 600px) {
+    display: none;
+  }
+
+}

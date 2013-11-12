@@ -1,0 +1,252 @@
+/*---------------------------------------------------- header  -----------------------------------------------------*/
+/*---------------------------------------------------- logo  -----------------------------------------------------*/
+
+.logo-row {
+  background: url("../images/black-bg.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  color: #FFFFFF;
+  display: inline-block;
+  width: 100%;
+  +section{
+    overflow: visible;
+    position: relative;
+    z-index: 1;
+  }
+  .logo-string {
+    height: 35px;
+    .heading {
+      color: #000000;
+      font-size: 10px;
+      position: absolute;
+      text-indent: 30px;
+      top: -25px;
+      z-index: 35;
+      font-weight: normal;
+    }
+    .date {
+      position: relative;
+      left: 200px;
+      color: #fff;
+      margin-top: 7px;
+      display: block;
+      float: left;
+    }
+    .logo {
+      left: 0;
+      position: absolute;
+      top: -5px;
+      width: 200px;
+      strong {
+        background: url("../images/logo.png") repeat scroll 0 0 transparent;
+        color: transparent;
+        display: block;
+        height: 45px;
+        margin-left: 10px;
+        position: relative;
+        text-indent: -999999px;
+        width: 172px;
+      }
+    }
+    .search-block {
+      width: 290px;
+      float: right;
+      input {
+        border: medium none;
+        border-radius: 0 0 0 0;
+        font-size: 12px;
+        font-style: italic;
+        height: 25px;
+        margin-top: 5px;
+        padding-left: 15px;
+        width: 100%;
+        font-family: arial;
+      }
+      .search-btn {
+        background: url("../images/icons.png") repeat scroll 2px -93px rgba(0, 0, 0, 0);
+        height: 25px;
+        margin-top: 0;
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        width: 25px;
+        @media all and (max-width: 480px) {
+          top: 0;
+        }
+
+        }
+    }
+
+  }
+  @media all and (max-width: 958px) {
+    margin-top: 40px;
+    .logo-string{
+      .date{
+        left: 185px;
+        .time{
+          display: none;
+        }
+      }
+
+    }
+  }
+  @media all and (max-width: 768px) {
+    .date {
+      display: none !important;
+    }
+    .search-block {
+      input {
+        display: none;
+      }
+    }
+  }
+  @media all and (max-width: 600px) {
+    .logo-string{
+      height: 27px;
+      .heading {
+        display: none;
+
+      }
+      .logo {
+        margin-left: 0px;
+        position: absolute;
+        top: 0px;
+        width: 95px;
+        padding: 0;
+        strong {
+          //background: url("../images/logo.png") repeat scroll 0 25px / 95px 23px transparent;
+          background-image: url("../images/logo.png");
+          background-color: transparent;
+          background-repeat: repeat;
+          background-size: 100% !important;
+          -webkit-background-size: 100% !important;
+          background-position: 0 25px;
+          color: rgba(0, 0, 0, 0);
+          display: block;
+          height: 27px;
+          margin-left: 0;
+          position: relative;
+          text-indent: -999999px;
+          width: 97px;
+        }
+      }
+    }
+  }
+}
+
+/*---------------------------------------------------- end logo  -----------------------------------------------------*/
+
+/*---------------------------------------------------- info  block  -----------------------------------------------------*/
+
+.info {
+  height: 35px;
+  line-height: 35px;
+  margin-top: 0px;
+  padding: 0;
+
+  .weather {
+    font-size: 11px;
+    width: 25%;
+    margin-left: 195px;
+    float: left;
+    .weather-ico,
+    .weather-heading,
+    .weather-temp {
+      display: inline-block;
+      margin: 0 5px;
+      margin-bottom: 0;
+    }
+    .weather-ico {
+      position: relative;
+      top: 4px;
+      width: 35px;
+    }
+    .weather-heading {
+    }
+    .weather-temp {
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .ex-rate {
+    width: 22%;
+    float: left;
+    .ex-rate-heading, .ex-rate-nums {
+      display: inline-block;
+      font-size: 11px;
+      margin: 0 5px;
+    }
+    .ex-rate-heading {
+    }
+    .ex-rate-nums {
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+
+  @media all and (max-width: 1300px) {
+    .weather{
+      margin-left: 195px;
+    }
+  }
+  @media all and (max-width: 958px) {
+    .weather {
+      width: 30%;
+      margin-left: 0px;
+    }
+    .ex-rate {
+      width: 30%;
+    }
+  }
+
+  @media all and (max-width: 768px) {
+    height: 0;
+    line-height: 0;
+    .weather {
+      display: none;
+    }
+    .ex-rate {
+      display: none;
+    }
+  }
+}
+
+/*---------------------------------------------------- end info  block  -----------------------------------------------------*/
+/*---------------------------------------------------- other links  -----------------------------------------------------*/
+.other-links-wrapper{
+  display: table;
+  padding-right: 35px;
+  width: 290px;
+  position: absolute;
+  right: 0;
+  .other-link{
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    height: 30px;
+    position: relative;
+    &:last-child{
+      a{
+        border: none;
+      }
+    }
+    a{
+      padding-right: 10px;
+      border-right: 1px solid $a-color;
+
+    }
+  }
+  @media all and (max-width: 768px) {
+    right: 50%;
+    margin-right: -160px;
+  }
+  @media all and (max-width: 480px) {
+  }
+
+
+
+  }
+/*---------------------------------------------------- end other links  -----------------------------------------------------*/
+
+/*---------------------------------------------------- end header -----------------------------------------------------*/

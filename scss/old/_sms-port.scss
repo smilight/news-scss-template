@@ -1,0 +1,247 @@
+/*sms-port
+---------------------------------------------------------------------------------------------*/
+.sms-port, .sms-port-second {
+  background: #dfdfdf;
+  padding: 5px 10px;
+  margin-top: 10px;
+  .sms-answ {
+    float: right;
+    margin: 10px 0;
+    text-transform: lowercase;
+    text-decoration: underline;
+    font-style: italic;
+  }
+}
+
+.sms-port-header {
+  border: none;
+  height: 25px;
+  line-height: 25px;
+  .sms-port-header-link {
+    margin-left: 45px;
+    vertical-align: middle;
+    color: #808080;
+    text-decoration: underline;
+    text-transform: uppercase;
+    &:after {
+      color: #25658E;
+      content: ">>";
+      margin-left: 15px;
+    }
+
+    &:before {
+      background: url("../images/icons.png") repeat scroll 0 0 transparent;
+      content: " ";
+      height: 25px;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 40px;
+    }
+  }
+}
+
+.sms-port-second {
+  width: 80%;
+  float: left;
+  .sms {
+    width: 25%;
+    float: left;
+    padding: 0 15px;
+  }
+  @media all and (max-width: 1300px) {
+    width: 50%;
+    float: left;
+    margin-top: 25px;
+    .sms {
+      width: 50%;
+      float: left;
+    }
+  }
+  @media all and (max-width: 958px) {
+    display: none;
+  }
+  @media all and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.sms-port-wrapper {
+  background: none repeat scroll 0 0 #DFDFDF;
+  margin-bottom: 18px;
+  margin-top: 18px;
+  padding: 0 5px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20%;
+  height: 280%;
+  overflow: hidden;
+  .buttons {
+    display: none;
+  }
+  .sms-port-inner {
+    display: inline-block;
+    height: 100%;
+    overflow: visible;
+    padding: 1px;
+    width: 100%;
+    .viewport {
+      height: auto;
+      .overview {
+        .sms {
+          clear: both;
+          display: table;
+          float: none;
+          margin: 0;
+          padding: 0 5px;
+          text-align: left;
+          .sms-answ {
+            float: right;
+            font-style: italic;
+            text-decoration: underline;
+            text-transform: lowercase;
+            margin: 0;
+          }
+
+        }
+      }
+    }
+
+  }
+  @media all and (max-width: 1300px) {
+    width: 75%;
+    display: block;
+    position: relative;
+    .sms-port-inner {
+      .viewport {
+        .overview {
+          .sms {
+            float: left;
+            width: 236px;
+            display: block;
+            clear: none;
+            &:nth-child(3) {
+              display: none;
+            }
+            .sms-answ {
+            }
+          }
+        }
+      }
+
+    }
+  }
+  @media all and (max-width: 958px) {
+    width: 66%;
+    display: block;
+    position: relative;
+    .sms-port-inner {
+      .viewport {
+        width: 500px;
+        .overview {
+          .sms {
+            float: left;
+            width: 250px;
+            display: block;
+            clear: none;
+            &:nth-child(3) {
+              display: block;
+              clear: both;
+            }
+            .sms-answ {
+            }
+          }
+        }
+      }
+
+    }
+  }
+  @media all and (max-width: 800px) {
+    .buttons {
+      display: block;
+    }
+    width: 100% !important;
+    display: table;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    .sms-port-inner {
+      .viewport {
+        width: 600px;
+        .overview {
+          .sms {
+            float: left;
+            width: 300px;
+            display: block;
+            clear: none;
+            &:nth-child(3) {
+              display: block;
+              clear: none;
+            }
+            .sms-answ {
+            }
+          }
+        }
+      }
+
+    }
+  }
+  @media all and (max-width: 600px) {
+    .buttons {
+      display: block;
+    }
+    width: 100% !important;
+    display: table;
+    position: relative;
+    .sms-port-inner {
+      .viewport {
+        width: 480px;
+        .overview {
+          .sms {
+            float: left;
+            width: 240px;
+            display: block;
+            clear: none;
+            &:nth-child(3) {
+              display: block;
+              clear: none;
+            }
+            .sms-answ {
+            }
+          }
+        }
+      }
+
+    }
+  }
+  @media all and (max-width: 480px) {
+    .buttons {
+      display: block;
+    }
+    width: 100%;
+    display: block;
+    position: relative;
+    .sms-port-inner {
+      .viewport {
+        width: 320px;
+        .overview {
+          .sms {
+            float: left;
+            width: 290px;
+            display: block;
+            clear: none;
+            &:nth-child(3) {
+              display: block;
+              clear: none;
+            }
+            .sms-answ {
+            }
+          }
+        }
+      }
+
+    }
+  }
+
+}

@@ -1,7 +1,7 @@
 <header>
 <!--------------------------------------------------------------- header adverts ---------------------------------------------------->
 
-<section class="line advert-full">
+<section class="line header-adv">
     <section class="col12">
         <div class="agevar">
             <span>12+</span>
