@@ -1,4 +1,4 @@
-<section class="parrent-row clearfix block3">
+<section class="line">
     <section class="news-bl-wrapper">
 
         <section class="blogers-wrapper">
@@ -53,16 +53,17 @@
             </section>
         </section>
 
-        <section class="sms-port-wrapper">
-            <h2 class="sms-port-header">
-                <a class="sms-port-header-link" href="#">портал</a>
-            </h2>
-            <section class="sms-port-inner carouselwbig">
-                <a href="#" class="button prev"><</a>
+
+        <section class="s-wrapper-outer line sms-v-wrapper" data-widget='accordion'>
+            <div class="b-h">
+                <a href="#"></a>
+            </div>
+
+            <div class="s-wrapper">
+                <a href="#" class="button prev">left</a>
 
                 <div class="viewport">
-
-                    <ul id="sms-slider" class="overview">
+                    <ul class="overview">
                         <? for ($s = 1; $s <= 15; $s++) {
                             echo '<li class="sms">
                                 <p>Купил тур, но потерял загранпаспорт. Не знаю, что делать. Можно ли быстро сделать
@@ -72,12 +73,14 @@
                             </li>';
                         } ?>
                     </ul>
+                    <!-- [END] slider -->
+                    </ul>
                 </div>
-                <a href="#" class="button next">></a>
-            </section>
 
-
+                <a href="#" class="button next">right</a>
+            </div>
         </section>
+
 
         <?
         $name = 'Город';

@@ -32,18 +32,20 @@ widgets = {
         this.initAccordion('*[data-widget="accordion"]');
         this.initAccordion1('*[data-widget="accordion1"]');
         this.openRespMenu('*[data-widget="resp-menu"]');
-        $('.carouselw,.carouselwbig,.carouselw2').each(function () {
+        $('.s-wrapper').each(function () {
             $(this).tinycarousel();
         });
         $('.social_container').tabs();
 
     },
     initAccordion: function (selector) {
-        if (ww <= 800) {
-            $(selector).accordion({heightStyle: "content", collapsible: true, active: false});
-        } else {
-            $(selector).accordion({disabled: true, heightStyle: "content", collapsible: false});
-        }
+        $(selector).accordion({heightStyle: "content", collapsible: true, active: false});
+
+//        if (ww <= 800) {
+//            $(selector).accordion({heightStyle: "content", collapsible: true, active: false});
+//        } else {
+//            $(selector).accordion({disabled: true, heightStyle: "content", collapsible: false});
+//        }
     },
     initAccordion1: function (selector) {
         if (ww <= 600) {
@@ -66,6 +68,11 @@ widgets = {
             $(this).tinycarousel({
             })
         })
+//        $('.carouselw .viewport').width($(window).width());
+//        $(selector).each(function () {
+//            $(this).tinycarousel({
+//            })
+//        })
     }
 }
 $(window).resize(function () {

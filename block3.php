@@ -1,4 +1,4 @@
-<section class="parrent-row clearfix block5"><!-- moscvichka -->
+<section class="line"><!-- moscvichka -->
     <section class="news-bl-wrapper">
 
         <?
@@ -73,59 +73,9 @@
 
         </div>
 
-        <section class="moscvichka-block">
-            <div class="news-b2 pbm">
-                <h2 class="block-name">
-                    <a class="red" href="#">@Москвичка</a>
-                </h2>
-                <section class="span12">
-                    <div class="moscvichka-item-single">
-                        <div class="moscvichka-item-half">
-                            <a href="#" class="moscvichka-item-image">
-                                <img alt="Красота под марш Мендельсона" src="img/content/9.jpg">
-                            </a>
-                            <a class="lead" href="#">Красота под марш Мендельсона</a>
-
-                        </div>
-                        <ul class="moscvichka-item-half">
-                            <li class="moscvichka-item-link">
-                                <a href="#">5 самых невообразимых турпоездок, в которые может отправиться каждый</a>
-                            </li>
-                            <li class="moscvichka-item-link">
-                                <a href="#">4 рецепта самых полезных низкокалорийных летних заготовок</a>
-                            </li>
-                            <li class="moscvichka-item-link">
-                                <a href="#">10 больших звезд в маленьких купальниках</a>
-                            </li>
-                        </ul>
-
-                    </div>
-                    <div class="moscvichka-item-single">
-                        <div class="moscvichka-item-half">
-                            <a href="#" class="moscvichka-item-image">
-                                <img alt="Красота под марш Мендельсона" src="img/content/3.jpg">
-                            </a>
-                            <a class="lead" href="#">Красота под марш Мендельсона</a>
-
-                        </div>
-                        <ul class="moscvichka-item-half">
-                            <li class="moscvichka-item-link">
-                                <a href="#">5 самых невообразимых турпоездок, в которые может отправиться каждый</a>
-                            </li>
-                            <li class="moscvichka-item-link">
-                                <a href="#">4 рецепта самых полезных низкокалорийных летних заготовок</a>
-                            </li>
-                            <li class="moscvichka-item-link">
-                                <a href="#">10 больших звезд в маленьких купальниках</a>
-                            </li>
-                        </ul>
-
-                    </div>
-                </section>
-            </div>
-            <!-- [END] class="news-b2" -->
-        </section>
-        <!-- [END] class="span2-5" -->
+        <?
+        include 'moscvichka.php';
+        ?>
     </section>
     <!-- [END] class="row" -->
 </section>

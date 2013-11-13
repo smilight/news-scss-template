@@ -21,11 +21,11 @@
   }
 
   .f-inner {
-    float: none;
     margin: 0 auto;
     @include cols(12);
     max-width: $w1300;
     @include allmaxwidth();
+    float: none;
   }
 
   .f-nav-wrapper {
@@ -48,13 +48,13 @@
     li {
       float: left;
       width: 100%;
-      margin-bottom: 20px;
+      margin-bottom: 1.250em;
     }
     .name {
       font-weight: bold;
       width: 100%;
       float: left;
-      margin-top: 5px;
+      margin-top: 0.313em;
     }
   }
 

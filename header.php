@@ -767,27 +767,26 @@
 <!--------------------------------------------------------------- end main menu ---------------------------------------------------->
 
 <!--------------------------------------------------------------- small-news ---------------------------------------------------->
-
-<section class="parrent-row clearfix">
-    <div id="slider-code" class="carouselw small-news">
-
-        <a class="buttons rl prev" href="#"><</a>
+<section class="s-wrapper-outer line <? echo $block_class ?>" data-widget='accordion'>
+    <div class="s-wrapper">
+        <a href="#" class="button prev">left</a>
 
         <div class="viewport">
             <ul class="overview">
-                <li class="small-news-item"><a href="#">Московский подрост’ОК</a></li>
-                <li class="small-news-item"><a href="#">Горячее лето - 2013</a></li>
-                <li class="small-news-item"><a href="#">Пресс-центр "Вечерней Москвы"</a></li>
-                <li class="small-news-item"><a href="#">Единый день голосования. Выборы мэра Москвы</a></li>
-                <li class="small-news-item"><a href="#">День России-2013</a></li>
-                <li class="small-news-item"><a href="#">ЕГЭ-2013</a></li>
-                <li class="small-news-item"><a href="#">Наш портал</a></li>
-                <li class="small-news-item"><a href="#">Телевидение</a></li>
+                <li class="slide"><a href="#">Московский подрост’ОК</a></li>
+                <li class="slide"><a href="#">Горячее лето - 2013</a></li>
+                <li class="slide"><a href="#">Пресс-центр "Вечерней Москвы"</a></li>
+                <li class="slide"><a href="#">Единый день голосования. Выборы мэра Москвы</a></li>
+                <li class="slide"><a href="#">День России-2013</a></li>
+                <li class="slide"><a href="#">ЕГЭ-2013</a></li>
+                <li class="slide"><a href="#">Наш портал</a></li>
+                <li class="slide"><a href="#">Телевидение</a></li>
+            </ul>
+            <!-- [END] slider -->
             </ul>
         </div>
 
-        <a class="buttons rl next" href="#">></a>
-
+        <a href="#" class="button next">right</a>
     </div>
 </section>
 

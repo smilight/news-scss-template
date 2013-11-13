@@ -1,0 +1,192 @@
+.main-topics-bl {
+  width: 40%;
+  float: left;
+  @media all and (max-width: 1300px) {
+    width: 50%;
+  }
+  @media all and (max-width: 958px) {
+    width: 66%;
+    margin-bottom: 235px;
+  }
+  @media all and (max-width: 768px) {
+    width: 66%;
+    margin-bottom: 195px;
+  }
+  @media all and (max-width: 600px) {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+
+}
+
+.main-topics-bl {
+  .main-topic-content-wrapper {
+    margin-bottom: 25px;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 15px;
+    .main-topic-content-right {
+
+      p {
+        max-height: 105px;
+        overflow: hidden;
+        text-decoration: none;
+      }
+      &:hover {
+        text-decoration: none;
+        p {
+          text-decoration: none;
+          cursor: default;
+        }
+        h3 {
+          text-decoration: underline;
+        }
+      }
+
+    }
+    @media all and (max-width: 458px) {
+      .accordion-header {
+        display: none;
+      }
+    }
+
+    .main-topic-content-left {
+      display: block;
+      border: $image-border;
+    }
+  }
+  .main-topic-header {
+    display: none;
+    @media all and (max-width: 600px) {
+      display: block;
+    }
+
+  }
+
+  .main-topic2-content-wrapper {
+    display: block;
+    height: 150px;
+    line-height: 18px;
+    overflow: hidden;
+    padding: 5px 0;
+    @media all and (max-width: 480px) {
+      display: none;
+    }
+
+    .main-topic2-content-left {
+      display: block;
+      float: left;
+      max-height: 140px;
+      overflow: hidden;
+      width: 50%;
+      border: $image-border;
+    }
+    .main-topic2-content-right {
+      width: 50%;
+      display: table;
+      float: left;
+      padding-left: 25px;
+      &:hover {
+        text-decoration: none;
+        h3 {
+          text-decoration: underline;
+        }
+        p {
+          text-decoration: none;
+          cursor: default;
+        }
+
+      }
+
+      .accordion-header {
+        margin: 0;
+        font-weight: normal;
+        max-height: 55px;
+        line-height: 18px;
+        overflow: hidden;
+      }
+      p {
+        line-height: 18px;
+        max-height: 70px;
+        overflow: hidden;
+
+      }
+    }
+  }
+  .main-topic2-header {
+    display: none;
+    @media all and (max-width: 600px) {
+      display: block;
+    }
+
+  }
+  @media all and (max-width: 480px) {
+    width: 100%;
+  }
+
+}
+
+@media all and (max-width: 600px) {
+  .main-topics-bl {
+    .main-topic-header {
+      background: url("../images/480bg.jpg") repeat scroll 0 0 transparent;
+      height: 52px;
+      margin: 0;
+      padding: 0 10px;
+      position: relative;
+      width: 100%;
+      a {
+        color: white;
+      }
+    }
+    .main-topic-content-wrapper {
+      position: relative;
+      padding: 0;
+      margin: 0;
+      .main-topic-content-left {
+
+      }
+      .main-topic-content-right {
+        background: none repeat scroll 0 0 rgba(0, 0, 0, 0.47);
+        bottom: 0;
+        color: #FFFFFF;
+        padding: 5px;
+        position: absolute;
+        p {
+          display: none;
+        }
+      }
+    }
+    .main-topic2-header {
+      background: url("../images/480bg.jpg") repeat scroll 0 0 transparent;
+      height: 52px;
+      margin: 0;
+      padding: 0 10px;
+      position: relative;
+      width: 100%;
+      a {
+        color: white;
+      }
+    }
+    .main-topic2-content-wrapper {
+      position: relative;
+      padding: 0;
+      margin: 0;
+      .main-topic2-content-left {
+        width: 100%;
+      }
+
+      .main-topic2-content-right {
+        background: none repeat scroll 0 0 rgba(0, 0, 0, 0.47);
+        bottom: 0;
+        color: #FFFFFF;
+        padding: 5px;
+        position: absolute;
+        width: 100%;
+        p {
+          display: none;
+        }
+      }
+
+    }
+  }
+}

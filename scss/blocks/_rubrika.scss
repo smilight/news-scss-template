@@ -2,9 +2,8 @@
   width: 40%;
   float: left;
   display: block;
-  margin: 0;
-  padding: 0 5px;
-  margin: 15px 0;
+  padding: 0 0.278em;
+  margin: 0.833em 0;
   .rub-inner {
 
   }
@@ -19,14 +18,14 @@
 
     }
     .rub-art-image{
-      border: 3px solid grey;
+      border: $border;
       display: block;
       position: relative;
       width: 100%;
       height: auto;
     }
     .rub-art-h{
-
+      font-size: 1.2em;
     }
   }
   .rub-list{
@@ -34,7 +33,7 @@
     .rub-list-item{
     }
     .rub-list-link{
-      font-size: 0.8em;
+      font-size: 0.9em;
     }
   }
 }

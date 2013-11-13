@@ -1,6 +1,8 @@
 <section class="rub-wrapper" data-widget='accordion'>
 
-    <a class="b-h" href="#"><? echo $name; ?></a>
+    <div class="b-h">
+        <a href="#"><? echo $name; ?></a>
+    </div>
 
     <div class="rub-inner">
         <div class="rub-art">

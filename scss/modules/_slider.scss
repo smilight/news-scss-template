@@ -1,0 +1,143 @@
+.s-wrapper-outer {
+  display: table;
+  clear: both;
+  width: 100%;
+  &.media {
+    .b-h {
+      @include allmaxwidth();
+    }
+    a {
+      color: white;
+      font-size: 1em;
+      text-decoration: none;
+      text-align: center;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    .s-h {
+      position: absolute;
+      margin: 3px;
+      margin-top: 0;
+      bottom: 0;
+      left: 0;
+      display: block;
+      background-color: rgba(0, 0, 0, 0.59);
+      padding: 7px 0 7px 13px;
+    }
+    .s-wrapper{
+      background: $black-bg;
+    }
+    .special-date{
+      display: none;
+    }
+  }
+  &.video {
+    .s-h {
+      position: relative;
+      margin: 0;
+      padding: 0;
+      background-color: transparent;
+    }
+  }
+  &.special-bl-single{
+    width: 14.72em;
+    .s-wrapper{
+
+      .viewport{
+        width: 14.72em;
+      }
+    }
+    .b-h{
+      width: 14.72em;
+    }
+  }
+}
+
+.s-wrapper {
+  display: table;
+  width: 100%;
+  padding: 10px 0;
+  margin: 10px 0;
+  position: relative;
+  .viewport {
+    @include allmaxwidth();
+    overflow: hidden;
+    position: relative;
+    .overview {
+      list-style: none;
+      position: relative;
+      padding: 0;
+      margin: 0;
+      left: 0;
+      top: 0;
+      width: 100%;
+    }
+  }
+  .button {
+    background-image: url("../img/icons.png");
+    background-color: #B7B2B2;
+    width: 13px;
+    height: 13px;
+    color: transparent !important;
+    top: 50%;
+    position: absolute;
+    margin-top: -35px;
+    border-color: #B7B2B2;
+    border-style: solid;
+    border-top-width: 30px;
+    border-bottom-width: 30px;
+    border-right-width: 5px;
+    border-left-width: 5px;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    z-index: 1;
+    &.next {
+      right: 0px;
+      background-position: -40px -54px;
+    }
+    &.prev {
+      left: 0;
+      background-position: -26px -54px;
+    }
+
+  }
+}
+
+.slide {
+  width: 14.72em;
+  margin: 0;
+  display: block;
+  float: left;
+  overflow: hidden;
+  margin-right: 5px;
+  .s-image-wrapper {
+    display: block;
+    width: 100%;
+    position: relative;
+  }
+  .s-image {
+    display: block;
+    width: 100%;
+    height: 130px;
+    border: $border;
+  }
+  .s-h {
+
+  }
+}
+
+@include breakpoint(1300) {
+}
+
+@include breakpoint(960) {
+}
+
+@include breakpoint(800) {
+}
+
+@include breakpoint(600) {
+}
+
+@include breakpoint(480) {
+}

@@ -1,8 +1,7 @@
-<section class="parrent-row clearfix block1">
-<section class="row">
+<section class="line">
 
 <section class="main-topics-bl">
-    <h2 class="block-name">ГЛАВНые ТЕМы</h2>
+    <div class="b-h"><a href="#">ГЛАВНые ТЕМы</a></div>
     <section class="" data-widget='accordion1'>
         <h1 class="main-topic-header">
             <a href="#">Владимир Урин: Как я выстрою отношения с коллективом Большого театра -
@@ -122,7 +121,7 @@
 
 <section class="last-news_special-bl">
     <section class="last-news">
-        <h2 class="block-name">новости</h2>
+        <div class="b-h"><a href="#">новости</a></div>
 
 
         <div id="slider-code" class="carouselwbig small-news2">
@@ -154,108 +153,24 @@
     </section>
 
     <section class="special-bl">
-        <div class="special-bl-single">
-            <h2 class="block-name">Cпецпроекты</h2>
+        <?
+        $name = 'спецпроекты';
+        $block_class = 'special-bl-single';
+        include 'slider.php';
+        ?>
 
-            <section class="row main-topics1 carouselwbig">
-                <a class="buttons rlb prev" href="#"><</a>
+        <?
+        $name = 'Вечерка-ТВ';
+        $block_class = 'special-bl-single';
+        include 'slider.php';
+        ?>
 
-                <div class="viewport">
+        <?
+        $name = 'Церковь';
+        $block_class = 'special-bl-single';
+        include 'slider.php';
+        ?>
 
-                    <ul class="overview">
-                        <li class="special-bl-spec-single-item">
-                            <a class="special-bl-single-image" href="#">
-                                <img alt="Москвичка" src="img/content/1.jpg">
-
-                                <span class="special-bl-spec-single-item-info">Москвичка</span>
-                            </a>
-                        </li>
-                        <li class="special-bl-spec-single-item">
-                            <a class="special-bl-single-image" href="#">
-                                <img alt="Город из окна" src="img/content/0.jpg">
-
-                                <span class="special-bl-spec-single-item-info">Город из окна</span>
-                            </a>
-                        </li>
-                        <li class="special-bl-spec-single-item">
-                            <a class="special-bl-single-image" href="#">
-                                <img alt="Городской фестиваль" src="img/content/2.jpg">
-
-                                <span class="special-bl-spec-single-item-info">Городской фестиваль</span>
-                            </a>
-                        </li>
-                        <li class="special-bl-spec-single-item">
-                            <a class="special-bl-single-image" href="#">
-                                <img alt="Пресса в образовании" src="img/content/3.jpg">
-
-                                <span class="special-bl-spec-single-item-info">Пресса в образовании</span>
-                            </a>
-                        </li>
-                        <li class="special-bl-spec-single-item">
-                            <a class="special-bl-single-image" href="#">
-                                <img alt="Книжная коллекция " src="img/content/4.jpg">
-
-                                <span class="special-bl-spec-single-item-info">Книжная коллекция "Топ-10"</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <a class="buttons rlb next" href="#">></a>
-
-            </section>
-        </div>
-
-        <div class="special-bl-single">
-            <h2 class="block-name"><a href="#">Вечерка-ТВ</a></h2>
-            <section class="row main-topics1 carouselwbig">
-                <a class="buttons rlb prev" href="#"><</a>
-
-                <div class="viewport">
-
-                    <ul class="overview" id="tv">
-                        <? for ($s = 1; $s <= 5; $s++) {
-                            echo '
-                            <li class="special-bl-tv-single-item">
-                                <a class="special-image video-badge" href="#">
-                                    <img alt="" src="img/content/';
-                            echo mt_rand(0, 9);
-                            echo '.jpg">
-                                    <div class="special-date"><b>14:02</b>8 июля 2013</div>
-                                </a>
-                                <a class="special-link" href="#">
-                                    Пресс-конференция: «Рамадан: мусульманская культура и традиции как часть современной
-                                    России»
-                                </a>
-                            </li>';
-                        }?>
-                    </ul>
-                </div>
-                <a class="buttons rlb next" href="#">></a>
-
-            </section>
-        </div>
-
-        <div class="special-bl-single">
-            <h2 class="block-name">Церковь</h2>
-            <section class="row main-topics1 carouselwbig">
-                <div class="viewport">
-
-                    <ul class="overview" id="tv">
-                        <li class="special-bl-tv-single-item">
-                            <a class="special-image video-badge" href="#">
-                                <img alt="" src="img/content/5.jpg">
-
-                                <div class="special-date"><b>14:02</b>8 июля 2013</div>
-                            </a>
-                            <a class="special-link" href="#">
-                                Пресс-конференция: «Рамадан: мусульманская культура и традиции как часть современной
-                                России»
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-        </div>
     </section>
 
 </section>
@@ -267,7 +182,7 @@
 
     <div class="pollblock">
         <form name="poll" action="#" class="">
-            <h2 class="block-name red">Горячий вопрос</h2>
+            <div class="b-h red"><a href="#">Горячий вопрос</a></div>
 
             <h3 class="pollblock-header">Кто из кандидатов, на ваш взгляд, наиболее соответствует должности мэра
                 Москвы?</h3>
@@ -358,5 +273,4 @@
     </div>
 </section>
 
-</section>
 </section>

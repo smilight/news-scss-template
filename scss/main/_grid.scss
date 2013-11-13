@@ -1,6 +1,7 @@
 $one_col: (100% - ($gutter * ($cols - 1))) / $cols;
 
 .line {
+  @include allmaxwidth();
   #{enumerate('.col', 1, $cols, '')} {
     float: left;
     margin-left: $gutter;

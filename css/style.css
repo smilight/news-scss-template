@@ -504,67 +504,68 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_base\.scss}line{font-family:\000034}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_base\.scss}line{font-family:\000034}}
 body {
-  font-size: 100%;
+  font-size: 14px;
+  line-height: 18px;
   font-family: arial; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_base\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_base\.scss}line{font-family:\000039}}
 a {
   color: #25658e; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_base\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_base\.scss}line{font-family:\0000311}}
   a:hover {
     color: #cc6600; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_base\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_base\.scss}line{font-family:\0000315}}
 .fr {
   float: right !important; }
 
 @media (max-width: 81.25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_base\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_base\.scss}line{font-family:\0000319}}
   .bline1 {
     max-width: 60.000em !important; } }
 @media (max-width: 59.875em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_base\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_base\.scss}line{font-family:\0000319}}
   .bline1 {
     max-width: 48.000em !important; } }
 @media (max-width: 50em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_base\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_base\.scss}line{font-family:\0000319}}
   .bline1 {
     max-width: 37.500em !important; } }
 @media (max-width: 37.5em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_base\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_base\.scss}line{font-family:\0000319}}
   .bline1 {
     max-width: 30.000em !important; } }
 @media (max-width: 30em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_base\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_base\.scss}line{font-family:\0000319}}
   .bline1 {
     max-width: 20.000em !important; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_base\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_base\.scss}line{font-family:\0000327}}
 .b-h {
   border-bottom: 1px solid #7E7E7E;
   margin-bottom: 10px;
-  position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_base\.scss}line{font-family:\0000330}}
-  .b-h:after {
+  position: relative;
+  display: block;
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_base\.scss}line{font-family:\0000335}}
+.b-h a {
+  font-size: 0.7em !important;
+  font-weight: normal;
+  font-family: verdana;
+  line-height: 1.5em;
+  color: #444444 !important;
+  text-transform: uppercase;
+  text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_base\.scss}line{font-family:\0000343}}
+  .b-h a:after {
     color: #25658E;
     content: ">>";
     margin-left: 15px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_base\.scss}line{font-family:\0000336}}
-.b-h, .b-h a {
-  font-size: 0.7em;
-  font-weight: normal;
-  font-family: verdana;
-  line-height: 1.5em;
-  color: #444444;
-  text-transform: uppercase;
-  text-decoration: none;
-  display: block;
-  width: 100%; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_base\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_base\.scss}line{font-family:\0000351}}
 .video-link-s, .video-link-b {
   background-image: url("../img/icons.png");
   position: absolute;
@@ -572,7 +573,7 @@ a {
   top: 5px;
   z-index: 1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_base\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_base\.scss}line{font-family:\0000358}}
 .video-link-s {
   background-position: -26px -28px;
   height: 10px;
@@ -580,493 +581,743 @@ a {
   top: 5px;
   width: 15px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_base\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_base\.scss}line{font-family:\0000365}}
 .video-link-b {
   background-position: -40px 0;
   height: 25px;
   right: 5px;
   width: 38px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\000034}}
+@media (min-width: 75em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\000033}}
+  .line {
+    max-width: 75em !important;
+    margin: 0 auto; } }
+@media (max-width: 75em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\000033}}
+  .line {
+    max-width: 60em !important;
+    margin: 0 auto; } }
+@media (max-width: 60em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\000033}}
+  .line {
+    max-width: 50em !important;
+    margin: 0 auto; } }
+@media (max-width: 50em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\000033}}
+  .line {
+    max-width: 37.5em !important;
+    margin: 0 auto; } }
+@media (max-width: 37.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\000033}}
+  .line {
+    max-width: 30em !important;
+    margin: 0 auto; } }
+@media (max-width: 30em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\000033}}
+  .line {
+    max-width: 20em !important;
+    margin: 0 auto; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\000035}}
 .line .col1, .line .col2, .line .col3, .line .col4, .line .col5, .line .col6, .line .col7, .line .col8, .line .col9, .line .col10, .line .col11, .line .col12 {
   float: left;
   margin-left: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000311}}
 .line .col1 {
   width: 8.33333%;
   float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000311}}
 .line .col2 {
   width: 16.66667%;
   float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col2 .sub-col1 {
     margin-left: 0;
     width: 50%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000311}}
 .line .col3 {
   width: 25%;
   float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col3 .sub-col1 {
     margin-left: 0;
     width: 33.33333%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col3 .sub-col2 {
     margin-left: 0;
     width: 66.66667%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000311}}
 .line .col4 {
   width: 33.33333%;
   float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col4 .sub-col1 {
     margin-left: 0;
     width: 25%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col4 .sub-col2 {
     margin-left: 0;
     width: 50%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col4 .sub-col3 {
     margin-left: 0;
     width: 75%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000311}}
 .line .col5 {
   width: 41.66667%;
   float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col5 .sub-col1 {
     margin-left: 0;
     width: 20%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col5 .sub-col2 {
     margin-left: 0;
     width: 40%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col5 .sub-col3 {
     margin-left: 0;
     width: 60%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col5 .sub-col4 {
     margin-left: 0;
     width: 80%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000311}}
 .line .col6 {
   width: 50%;
   float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col6 .sub-col1 {
     margin-left: 0;
     width: 16.66667%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col6 .sub-col2 {
     margin-left: 0;
     width: 33.33333%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col6 .sub-col3 {
     margin-left: 0;
     width: 50%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col6 .sub-col4 {
     margin-left: 0;
     width: 66.66667%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col6 .sub-col5 {
     margin-left: 0;
     width: 83.33333%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000311}}
 .line .col7 {
   width: 58.33333%;
   float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col7 .sub-col1 {
     margin-left: 0;
     width: 14.28571%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col7 .sub-col2 {
     margin-left: 0;
     width: 28.57143%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col7 .sub-col3 {
     margin-left: 0;
     width: 42.85714%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col7 .sub-col4 {
     margin-left: 0;
     width: 57.14286%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col7 .sub-col5 {
     margin-left: 0;
     width: 71.42857%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col7 .sub-col6 {
     margin-left: 0;
     width: 85.71429%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000311}}
 .line .col8 {
   width: 66.66667%;
   float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col8 .sub-col1 {
     margin-left: 0;
     width: 12.5%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col8 .sub-col2 {
     margin-left: 0;
     width: 25%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col8 .sub-col3 {
     margin-left: 0;
     width: 37.5%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col8 .sub-col4 {
     margin-left: 0;
     width: 50%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col8 .sub-col5 {
     margin-left: 0;
     width: 62.5%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col8 .sub-col6 {
     margin-left: 0;
     width: 75%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col8 .sub-col7 {
     margin-left: 0;
     width: 87.5%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000311}}
 .line .col9 {
   width: 75%;
   float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col9 .sub-col1 {
     margin-left: 0;
     width: 11.11111%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col9 .sub-col2 {
     margin-left: 0;
     width: 22.22222%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col9 .sub-col3 {
     margin-left: 0;
     width: 33.33333%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col9 .sub-col4 {
     margin-left: 0;
     width: 44.44444%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col9 .sub-col5 {
     margin-left: 0;
     width: 55.55556%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col9 .sub-col6 {
     margin-left: 0;
     width: 66.66667%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col9 .sub-col7 {
     margin-left: 0;
     width: 77.77778%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col9 .sub-col8 {
     margin-left: 0;
     width: 88.88889%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000311}}
 .line .col10 {
   width: 83.33333%;
   float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col10 .sub-col1 {
     margin-left: 0;
     width: 10%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col10 .sub-col2 {
     margin-left: 0;
     width: 20%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col10 .sub-col3 {
     margin-left: 0;
     width: 30%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col10 .sub-col4 {
     margin-left: 0;
     width: 40%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col10 .sub-col5 {
     margin-left: 0;
     width: 50%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col10 .sub-col6 {
     margin-left: 0;
     width: 60%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col10 .sub-col7 {
     margin-left: 0;
     width: 70%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col10 .sub-col8 {
     margin-left: 0;
     width: 80%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col10 .sub-col9 {
     margin-left: 0;
     width: 90.0%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000311}}
 .line .col11 {
   width: 91.66667%;
   float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col11 .sub-col1 {
     margin-left: 0;
     width: 9.09091%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col11 .sub-col2 {
     margin-left: 0;
     width: 18.18182%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col11 .sub-col3 {
     margin-left: 0;
     width: 27.27273%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col11 .sub-col4 {
     margin-left: 0;
     width: 36.36364%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col11 .sub-col5 {
     margin-left: 0;
     width: 45.45455%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col11 .sub-col6 {
     margin-left: 0;
     width: 54.54545%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col11 .sub-col7 {
     margin-left: 0;
     width: 63.63636%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col11 .sub-col8 {
     margin-left: 0;
     width: 72.72727%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col11 .sub-col9 {
     margin-left: 0;
     width: 81.81818%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col11 .sub-col10 {
     margin-left: 0;
     width: 90.90909%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000311}}
 .line .col12 {
   width: 100%;
   float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col12 .sub-col1 {
     margin-left: 0;
     width: 8.33333%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col12 .sub-col2 {
     margin-left: 0;
     width: 16.66667%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col12 .sub-col3 {
     margin-left: 0;
     width: 25%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col12 .sub-col4 {
     margin-left: 0;
     width: 33.33333%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col12 .sub-col5 {
     margin-left: 0;
     width: 41.66667%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col12 .sub-col6 {
     margin-left: 0;
     width: 50%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col12 .sub-col7 {
     margin-left: 0;
     width: 58.33333%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col12 .sub-col8 {
     margin-left: 0;
     width: 66.66667%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col12 .sub-col9 {
     margin-left: 0;
     width: 75%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col12 .sub-col10 {
     margin-left: 0;
     width: 83.33333%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000315}}
   .line .col12 .sub-col11 {
     margin-left: 0;
     width: 91.66667%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_grid\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_grid\.scss}line{font-family:\0000322}}
 .line > :first-child,
 .line .line > :first-child {
   margin-left: 0; }
 
+/*---------------------------------------------------- header  -----------------------------------------------------*/
+/*---------------------------------------------------- logo  -----------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\000034}}
+.logo-row {
+  background: url("../images/black-bg.jpg") repeat scroll 0 0 transparent;
+  color: #FFFFFF;
+  display: inline-block;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\000039}}
+  .logo-row + section {
+    overflow: visible;
+    position: relative;
+    z-index: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\0000314}}
+  .logo-row .logo-string {
+    height: 35px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\0000316}}
+    .logo-row .logo-string .heading {
+      color: #000000;
+      font-size: 10px;
+      position: absolute;
+      text-indent: 30px;
+      top: -25px;
+      z-index: 35;
+      font-weight: normal; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\0000325}}
+    .logo-row .logo-string .date {
+      position: relative;
+      left: 200px;
+      color: #fff;
+      margin-top: 7px;
+      display: block;
+      float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\0000333}}
+    .logo-row .logo-string .logo {
+      left: 0;
+      position: absolute;
+      top: -5px;
+      width: 200px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\0000338}}
+      .logo-row .logo-string .logo strong {
+        background: url("../images/logo.png") repeat scroll 0 0 transparent;
+        color: transparent;
+        display: block;
+        height: 45px;
+        margin-left: 10px;
+        position: relative;
+        text-indent: -999999px;
+        width: 172px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\0000349}}
+    .logo-row .logo-string .search-block {
+      width: 290px;
+      float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\0000352}}
+      .logo-row .logo-string .search-block input {
+        border: medium none;
+        border-radius: 0 0 0 0;
+        font-size: 12px;
+        font-style: italic;
+        height: 25px;
+        margin-top: 5px;
+        padding-left: 15px;
+        width: 100%;
+        font-family: arial; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\0000363}}
+      .logo-row .logo-string .search-block .search-btn {
+        background: url("../images/icons.png") repeat scroll 2px -93px transparent;
+        height: 25px;
+        margin-top: 0;
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        width: 25px; }
+        @media all and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\0000363}}
+          .logo-row .logo-string .search-block .search-btn {
+            top: 0; } }
+  @media all and (max-width: 958px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\000034}}
+    .logo-row {
+      margin-top: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\0000382}}
+      .logo-row .logo-string .date {
+        left: 185px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\0000384}}
+        .logo-row .logo-string .date .time {
+          display: none; } }
+  @media all and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\0000392}}
+    .logo-row .date {
+      display: none !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\0000396}}
+    .logo-row .search-block input {
+      display: none; } }
+  @media all and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\00003102}}
+    .logo-row .logo-string {
+      height: 27px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\00003104}}
+      .logo-row .logo-string .heading {
+        display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\00003108}}
+      .logo-row .logo-string .logo {
+        margin-left: 0px;
+        position: absolute;
+        top: 0px;
+        width: 95px;
+        padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\00003114}}
+        .logo-row .logo-string .logo strong {
+          background-image: url("../images/logo.png");
+          background-color: transparent;
+          background-repeat: repeat;
+          background-size: 100% !important;
+          -webkit-background-size: 100% !important;
+          background-position: 0 25px;
+          color: transparent;
+          display: block;
+          height: 27px;
+          margin-left: 0;
+          position: relative;
+          text-indent: -999999px;
+          width: 97px; } }
+
+/*---------------------------------------------------- end logo  -----------------------------------------------------*/
+/*---------------------------------------------------- info  block  -----------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\00003139}}
+.info {
+  height: 35px;
+  line-height: 35px;
+  margin-top: 0px;
+  padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\00003145}}
+  .info .weather {
+    font-size: 11px;
+    width: 25%;
+    margin-left: 195px;
+    float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\00003150}}
+    .info .weather .weather-ico,
+    .info .weather .weather-heading,
+    .info .weather .weather-temp {
+      display: inline-block;
+      margin: 0 5px;
+      margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\00003157}}
+    .info .weather .weather-ico {
+      position: relative;
+      top: 4px;
+      width: 35px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\00003165}}
+    .info .weather .weather-temp span {
+      font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\00003171}}
+  .info .ex-rate {
+    width: 22%;
+    float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\00003174}}
+    .info .ex-rate .ex-rate-heading, .info .ex-rate .ex-rate-nums {
+      display: inline-block;
+      font-size: 11px;
+      margin: 0 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\00003182}}
+    .info .ex-rate .ex-rate-nums span {
+      font-weight: bold; }
+  @media all and (max-width: 1300px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\00003189}}
+    .info .weather {
+      margin-left: 195px; } }
+  @media all and (max-width: 958px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\00003194}}
+    .info .weather {
+      width: 30%;
+      margin-left: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\00003198}}
+    .info .ex-rate {
+      width: 30%; } }
+  @media all and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\00003139}}
+    .info {
+      height: 0;
+      line-height: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\00003206}}
+      .info .weather {
+        display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\00003209}}
+      .info .ex-rate {
+        display: none; } }
+
+/*---------------------------------------------------- end info  block  -----------------------------------------------------*/
+/*---------------------------------------------------- other links  -----------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\00003217}}
+.other-links-wrapper {
+  display: table;
+  padding-right: 35px;
+  width: 290px;
+  position: absolute;
+  right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\00003223}}
+  .other-links-wrapper .other-link {
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    height: 30px;
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\00003230}}
+    .other-links-wrapper .other-link:last-child a {
+      border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\00003234}}
+    .other-links-wrapper .other-link a {
+      padding-right: 10px;
+      border-right: 1px solid; }
+  @media all and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_header\.scss}line{font-family:\00003217}}
+    .other-links-wrapper {
+      right: 50%;
+      margin-right: -160px; } }
+
+/*---------------------------------------------------- end other links  -----------------------------------------------------*/
+/*---------------------------------------------------- end header -----------------------------------------------------*/
 /* footer
 ---------------------------------------------------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\000033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_footer\.scss}line{font-family:\000033}}
 .footer {
   background: url(../img/black-bg.jpg);
   color: white;
   display: table;
   width: 100%;
   font-size: 0.9em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_footer\.scss}line{font-family:\0000310}}
   .footer p {
     margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_footer\.scss}line{font-family:\0000314}}
   .footer a {
     text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_footer\.scss}line{font-family:\0000318}}
   .footer ul, .footer li {
     list-style: none;
     padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_footer\.scss}line{font-family:\0000323}}
   .footer .f-inner {
-    float: none;
     margin: 0 auto;
     width: 100%;
     float: left;
-    max-width: 81.25em; }
-    @media (min-width: 81.25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000323}}
+    max-width: 75em;
+    float: none; }
+    @media (min-width: 75em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_footer\.scss}line{font-family:\0000323}}
       .footer .f-inner {
-        max-width: 81.25em !important;
+        max-width: 75em !important;
         margin: 0 auto; } }
-    @media (max-width: 81.25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000323}}
+    @media (max-width: 75em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_footer\.scss}line{font-family:\0000323}}
       .footer .f-inner {
         max-width: 60em !important;
         margin: 0 auto; } }
     @media (max-width: 60em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_footer\.scss}line{font-family:\0000323}}
       .footer .f-inner {
         max-width: 50em !important;
         margin: 0 auto; } }
     @media (max-width: 50em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_footer\.scss}line{font-family:\0000323}}
       .footer .f-inner {
         max-width: 37.5em !important;
         margin: 0 auto; } }
     @media (max-width: 37.5em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_footer\.scss}line{font-family:\0000323}}
       .footer .f-inner {
         max-width: 30em !important;
         margin: 0 auto; } }
     @media (max-width: 30em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_footer\.scss}line{font-family:\0000323}}
       .footer .f-inner {
         max-width: 20em !important;
         margin: 0 auto; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_footer\.scss}line{font-family:\0000331}}
   .footer .f-nav-wrapper {
     width: 75%;
     float: left;
     float: right; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_footer\.scss}line{font-family:\0000334}}
     .footer .f-nav-wrapper .f-menu {
       width: 100%;
       float: left;
       display: table; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_footer\.scss}line{font-family:\0000337}}
       .footer .f-nav-wrapper .f-menu .f-nav-item {
         display: table-cell;
         text-align: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_footer\.scss}line{font-family:\0000344}}
   .footer .f-team {
     width: 25%;
     float: left;
     float: left;
     margin-top: -2.500em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_footer\.scss}line{font-family:\0000348}}
     .footer .f-team li {
       float: left;
       width: 100%;
-      margin-bottom: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000353}}
+      margin-bottom: 1.250em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_footer\.scss}line{font-family:\0000353}}
     .footer .f-team .name {
       font-weight: bold;
       width: 100%;
       float: left;
-      margin-top: 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000361}}
+      margin-top: 0.313em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_footer\.scss}line{font-family:\0000361}}
   .footer .f-copy {
     width: 75%;
     float: left;
     float: right; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_footer\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/main\/_footer\.scss}line{font-family:\0000366}}
   .footer .f-counters {
     width: 75%;
     float: left;
@@ -1074,18 +1325,18 @@ a {
     margin-top: 15px;
     text-align: right; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_nav\.scss}line{font-family:\000031}}
 .h-nav-wrapper {
   height: 100%;
   width: 100%;
   position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_nav\.scss}line{font-family:\000035}}
   .h-nav-wrapper a {
     text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_nav\.scss}line{font-family:\000036}}
     .h-nav-wrapper a:hover {
       text-decoration: underline; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_nav\.scss}line{font-family:\0000310}}
   .h-nav-wrapper .h-nav-open {
     background: none repeat scroll 0 0 transparent;
     border-bottom: 1px solid #FFFFFF;
@@ -1095,7 +1346,7 @@ a {
     margin: 9px auto 0;
     padding: 0;
     width: 43px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_nav\.scss}line{font-family:\0000319}}
     .h-nav-wrapper .h-nav-open:after {
       background: none repeat scroll 0 0 #FFFFFF;
       bottom: -4px;
@@ -1104,7 +1355,7 @@ a {
       left: 0;
       position: absolute;
       width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_nav\.scss}line{font-family:\0000328}}
     .h-nav-wrapper .h-nav-open:before {
       background: none repeat scroll 0 0 #FFFFFF;
       bottom: -7px;
@@ -1113,74 +1364,74 @@ a {
       left: 0;
       position: absolute;
       width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_nav\.scss}line{font-family:\0000338}}
   .h-nav-wrapper .h-nav {
     display: table;
     width: 100%;
-    max-width: 81.25em;
+    max-width: 75em;
     width: 100%;
     float: left;
     position: relative;
     padding: 0; }
-    @media (min-width: 81.25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000338}}
+    @media (min-width: 75em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_nav\.scss}line{font-family:\0000338}}
       .h-nav-wrapper .h-nav {
-        max-width: 81.25em !important;
+        max-width: 75em !important;
         margin: 0 auto; } }
-    @media (max-width: 81.25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000338}}
+    @media (max-width: 75em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_nav\.scss}line{font-family:\0000338}}
       .h-nav-wrapper .h-nav {
         max-width: 60em !important;
         margin: 0 auto; } }
     @media (max-width: 60em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_nav\.scss}line{font-family:\0000338}}
       .h-nav-wrapper .h-nav {
         max-width: 50em !important;
         margin: 0 auto; } }
     @media (max-width: 50em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_nav\.scss}line{font-family:\0000338}}
       .h-nav-wrapper .h-nav {
         max-width: 37.5em !important;
         margin: 0 auto; } }
     @media (max-width: 37.5em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_nav\.scss}line{font-family:\0000338}}
       .h-nav-wrapper .h-nav {
         max-width: 30em !important;
         margin: 0 auto; } }
     @media (max-width: 30em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_nav\.scss}line{font-family:\0000338}}
       .h-nav-wrapper .h-nav {
         max-width: 20em !important;
         margin: 0 auto; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_nav\.scss}line{font-family:\0000347}}
   .h-nav-wrapper .h-nav-item {
     display: table-cell;
     border-bottom: 1px solid #808080;
     border-top: 1px solid #808080;
     text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_nav\.scss}line{font-family:\0000352}}
     .h-nav-wrapper .h-nav-item > a {
       display: block;
       border-right: 1px solid #808080;
       padding: 10px 0;
       margin: 2px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_nav\.scss}line{font-family:\0000359}}
     .h-nav-wrapper .h-nav-item:hover .h-nav-item-h {
       color: #333; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_nav\.scss}line{font-family:\0000362}}
     .h-nav-wrapper .h-nav-item:hover .h-nav-item-child {
       display: table; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_nav\.scss}line{font-family:\0000364}}
       .h-nav-wrapper .h-nav-item:hover .h-nav-item-child div {
         width: 31%;
         display: table-cell;
         padding: 0 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_nav\.scss}line{font-family:\0000371}}
     .h-nav-wrapper .h-nav-item .h-nav-item-h {
       font-size: 14px;
       font-weight: bold;
       text-transform: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_nav\.scss}line{font-family:\0000377}}
   .h-nav-wrapper .h-nav-item-child {
     background: none repeat scroll 0 0 #FFFFFF;
     border-bottom: 1px solid #808080;
@@ -1193,107 +1444,832 @@ a {
     width: 100%;
     text-align: left;
     z-index: 2; }
-    @media (min-width: 81.25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000377}}
+    @media (min-width: 75em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_nav\.scss}line{font-family:\0000377}}
       .h-nav-wrapper .h-nav-item-child {
-        max-width: 81.25em !important;
+        max-width: 75em !important;
         margin: 0 auto; } }
-    @media (max-width: 81.25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000377}}
+    @media (max-width: 75em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_nav\.scss}line{font-family:\0000377}}
       .h-nav-wrapper .h-nav-item-child {
         max-width: 60em !important;
         margin: 0 auto; } }
     @media (max-width: 60em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_nav\.scss}line{font-family:\0000377}}
       .h-nav-wrapper .h-nav-item-child {
         max-width: 50em !important;
         margin: 0 auto; } }
     @media (max-width: 50em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_nav\.scss}line{font-family:\0000377}}
       .h-nav-wrapper .h-nav-item-child {
         max-width: 37.5em !important;
         margin: 0 auto; } }
     @media (max-width: 37.5em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_nav\.scss}line{font-family:\0000377}}
       .h-nav-wrapper .h-nav-item-child {
         max-width: 30em !important;
         margin: 0 auto; } }
     @media (max-width: 30em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_nav\.scss}line{font-family:\0000377}}
       .h-nav-wrapper .h-nav-item-child {
         max-width: 20em !important;
         margin: 0 auto; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_nav\.scss}line{font-family:\0000391}}
     .h-nav-wrapper .h-nav-item-child .nav-child-l {
       border-right: 1px solid gray; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_nav\.scss}line{font-family:\0000394}}
     .h-nav-wrapper .h-nav-item-child .nav-child-c {
       border-right: 1px solid gray; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_nav\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_nav\.scss}line{font-family:\0000397}}
     .h-nav-wrapper .h-nav-item-child .nav-child-r {
       border: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_rubrika\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_rubrika\.scss}line{font-family:\000031}}
 .rub-wrapper {
   width: 40%;
   float: left;
   display: block;
-  margin: 0;
-  padding: 0 5px;
-  margin: 15px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_rubrika\.scss}line{font-family:\0000311}}
+  padding: 0 0.278em;
+  margin: 0.833em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_rubrika\.scss}line{font-family:\0000310}}
   .rub-wrapper .rub-art, .rub-wrapper .rub-list {
     width: 50%;
     float: left;
     display: block;
     position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_rubrika\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_rubrika\.scss}line{font-family:\0000320}}
   .rub-wrapper .rub-art .rub-art-image {
-    border: 3px solid grey;
+    border: 0.167em solid grey;
     display: block;
     position: relative;
     width: 100%;
     height: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_rubrika\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_rubrika\.scss}line{font-family:\0000327}}
+  .rub-wrapper .rub-art .rub-art-h {
+    font-size: 1.2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_rubrika\.scss}line{font-family:\0000331}}
   .rub-wrapper .rub-list {
     padding-left: 2em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_rubrika\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_rubrika\.scss}line{font-family:\0000335}}
     .rub-wrapper .rub-list .rub-list-link {
-      font-size: 0.8em; }
+      font-size: 0.9em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/modules\/_slider\.scss}line{font-family:\000031}}
+.s-wrapper-outer {
+  display: table;
+  clear: both;
+  width: 100%; }
+  @media (min-width: 75em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/modules\/_slider\.scss}line{font-family:\000036}}
+    .s-wrapper-outer.media .b-h {
+      max-width: 75em !important;
+      margin: 0 auto; } }
+  @media (max-width: 75em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/modules\/_slider\.scss}line{font-family:\000036}}
+    .s-wrapper-outer.media .b-h {
+      max-width: 60em !important;
+      margin: 0 auto; } }
+  @media (max-width: 60em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/modules\/_slider\.scss}line{font-family:\000036}}
+    .s-wrapper-outer.media .b-h {
+      max-width: 50em !important;
+      margin: 0 auto; } }
+  @media (max-width: 50em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/modules\/_slider\.scss}line{font-family:\000036}}
+    .s-wrapper-outer.media .b-h {
+      max-width: 37.5em !important;
+      margin: 0 auto; } }
+  @media (max-width: 37.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/modules\/_slider\.scss}line{font-family:\000036}}
+    .s-wrapper-outer.media .b-h {
+      max-width: 30em !important;
+      margin: 0 auto; } }
+  @media (max-width: 30em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/modules\/_slider\.scss}line{font-family:\000036}}
+    .s-wrapper-outer.media .b-h {
+      max-width: 20em !important;
+      margin: 0 auto; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/modules\/_slider\.scss}line{font-family:\000039}}
+  .s-wrapper-outer.media a {
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/modules\/_slider\.scss}line{font-family:\0000314}}
+    .s-wrapper-outer.media a:hover {
+      text-decoration: underline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/modules\/_slider\.scss}line{font-family:\0000318}}
+  .s-wrapper-outer.media .s-h {
+    position: absolute;
+    margin: 3px;
+    margin-top: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.59);
+    padding: 7px 0 7px 13px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/modules\/_slider\.scss}line{font-family:\0000328}}
+  .s-wrapper-outer.media .s-wrapper {
+    background: url(../img/black-bg.jpg); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/modules\/_slider\.scss}line{font-family:\0000331}}
+  .s-wrapper-outer.media .special-date {
+    display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/modules\/_slider\.scss}line{font-family:\0000336}}
+  .s-wrapper-outer.video .s-h {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/modules\/_slider\.scss}line{font-family:\0000343}}
+  .s-wrapper-outer.special-bl-single {
+    width: 14.72em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/modules\/_slider\.scss}line{font-family:\0000347}}
+    .s-wrapper-outer.special-bl-single .s-wrapper .viewport {
+      width: 14.72em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/modules\/_slider\.scss}line{font-family:\0000351}}
+    .s-wrapper-outer.special-bl-single .b-h {
+      width: 14.72em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/modules\/_slider\.scss}line{font-family:\0000357}}
+.s-wrapper {
+  display: table;
+  width: 100%;
+  padding: 10px 0;
+  margin: 10px 0;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/modules\/_slider\.scss}line{font-family:\0000363}}
+  .s-wrapper .viewport {
+    overflow: hidden;
+    position: relative; }
+    @media (min-width: 75em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/modules\/_slider\.scss}line{font-family:\0000363}}
+      .s-wrapper .viewport {
+        max-width: 75em !important;
+        margin: 0 auto; } }
+    @media (max-width: 75em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/modules\/_slider\.scss}line{font-family:\0000363}}
+      .s-wrapper .viewport {
+        max-width: 60em !important;
+        margin: 0 auto; } }
+    @media (max-width: 60em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/modules\/_slider\.scss}line{font-family:\0000363}}
+      .s-wrapper .viewport {
+        max-width: 50em !important;
+        margin: 0 auto; } }
+    @media (max-width: 50em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/modules\/_slider\.scss}line{font-family:\0000363}}
+      .s-wrapper .viewport {
+        max-width: 37.5em !important;
+        margin: 0 auto; } }
+    @media (max-width: 37.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/modules\/_slider\.scss}line{font-family:\0000363}}
+      .s-wrapper .viewport {
+        max-width: 30em !important;
+        margin: 0 auto; } }
+    @media (max-width: 30em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/modules\/_slider\.scss}line{font-family:\0000363}}
+      .s-wrapper .viewport {
+        max-width: 20em !important;
+        margin: 0 auto; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/modules\/_slider\.scss}line{font-family:\0000367}}
+    .s-wrapper .viewport .overview {
+      list-style: none;
+      position: relative;
+      padding: 0;
+      margin: 0;
+      left: 0;
+      top: 0;
+      width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/modules\/_slider\.scss}line{font-family:\0000377}}
+  .s-wrapper .button {
+    background-image: url("../img/icons.png");
+    background-color: #B7B2B2;
+    width: 13px;
+    height: 13px;
+    color: transparent !important;
+    top: 50%;
+    position: absolute;
+    margin-top: -35px;
+    border-color: #B7B2B2;
+    border-style: solid;
+    border-top-width: 30px;
+    border-bottom-width: 30px;
+    border-right-width: 5px;
+    border-left-width: 5px;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    z-index: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/modules\/_slider\.scss}line{font-family:\0000395}}
+    .s-wrapper .button.next {
+      right: 0px;
+      background-position: -40px -54px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/modules\/_slider\.scss}line{font-family:\0000399}}
+    .s-wrapper .button.prev {
+      left: 0;
+      background-position: -26px -54px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/modules\/_slider\.scss}line{font-family:\00003107}}
+.slide {
+  width: 14.72em;
+  margin: 0;
+  display: block;
+  float: left;
+  overflow: hidden;
+  margin-right: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/modules\/_slider\.scss}line{font-family:\00003114}}
+  .slide .s-image-wrapper {
+    display: block;
+    width: 100%;
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/modules\/_slider\.scss}line{font-family:\00003119}}
+  .slide .s-image {
+    display: block;
+    width: 100%;
+    height: 130px;
+    border: 0.167em solid grey; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\000031}}
+.main-topics-bl {
+  width: 40%;
+  float: left; }
+  @media all and (max-width: 1300px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\000031}}
+    .main-topics-bl {
+      width: 50%; } }
+  @media all and (max-width: 958px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\000031}}
+    .main-topics-bl {
+      width: 66%;
+      margin-bottom: 235px; } }
+  @media all and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\000031}}
+    .main-topics-bl {
+      width: 66%;
+      margin-bottom: 195px; } }
+  @media all and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\000031}}
+    .main-topics-bl {
+      width: 100%;
+      margin-bottom: 0px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\0000323}}
+.main-topics-bl .main-topic-content-wrapper {
+  margin-bottom: 25px;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\0000329}}
+  .main-topics-bl .main-topic-content-wrapper .main-topic-content-right p {
+    max-height: 105px;
+    overflow: hidden;
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\0000334}}
+  .main-topics-bl .main-topic-content-wrapper .main-topic-content-right:hover {
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\0000336}}
+    .main-topics-bl .main-topic-content-wrapper .main-topic-content-right:hover p {
+      text-decoration: none;
+      cursor: default; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\0000340}}
+    .main-topics-bl .main-topic-content-wrapper .main-topic-content-right:hover h3 {
+      text-decoration: underline; }
+  @media all and (max-width: 458px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\0000347}}
+    .main-topics-bl .main-topic-content-wrapper .accordion-header {
+      display: none; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\0000352}}
+  .main-topics-bl .main-topic-content-wrapper .main-topic-content-left {
+    display: block;
+    border: 3px solid grey; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\0000357}}
+.main-topics-bl .main-topic-header {
+  display: none; }
+  @media all and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\0000357}}
+    .main-topics-bl .main-topic-header {
+      display: block; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\0000365}}
+.main-topics-bl .main-topic2-content-wrapper {
+  display: block;
+  height: 150px;
+  line-height: 18px;
+  overflow: hidden;
+  padding: 5px 0; }
+  @media all and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\0000365}}
+    .main-topics-bl .main-topic2-content-wrapper {
+      display: none; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\0000375}}
+  .main-topics-bl .main-topic2-content-wrapper .main-topic2-content-left {
+    display: block;
+    float: left;
+    max-height: 140px;
+    overflow: hidden;
+    width: 50%;
+    border: 3px solid grey; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\0000383}}
+  .main-topics-bl .main-topic2-content-wrapper .main-topic2-content-right {
+    width: 50%;
+    display: table;
+    float: left;
+    padding-left: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\0000388}}
+    .main-topics-bl .main-topic2-content-wrapper .main-topic2-content-right:hover {
+      text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\0000390}}
+      .main-topics-bl .main-topic2-content-wrapper .main-topic2-content-right:hover h3 {
+        text-decoration: underline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\0000393}}
+      .main-topics-bl .main-topic2-content-wrapper .main-topic2-content-right:hover p {
+        text-decoration: none;
+        cursor: default; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\00003100}}
+    .main-topics-bl .main-topic2-content-wrapper .main-topic2-content-right .accordion-header {
+      margin: 0;
+      font-weight: normal;
+      max-height: 55px;
+      line-height: 18px;
+      overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\00003107}}
+    .main-topics-bl .main-topic2-content-wrapper .main-topic2-content-right p {
+      line-height: 18px;
+      max-height: 70px;
+      overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\00003115}}
+.main-topics-bl .main-topic2-header {
+  display: none; }
+  @media all and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\00003115}}
+    .main-topics-bl .main-topic2-header {
+      display: block; } }
+@media all and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\0000322}}
+  .main-topics-bl {
+    width: 100%; } }
+
+@media all and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\00003130}}
+  .main-topics-bl .main-topic-header {
+    background: url("../images/480bg.jpg") repeat scroll 0 0 transparent;
+    height: 52px;
+    margin: 0;
+    padding: 0 10px;
+    position: relative;
+    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\00003137}}
+    .main-topics-bl .main-topic-header a {
+      color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\00003141}}
+  .main-topics-bl .main-topic-content-wrapper {
+    position: relative;
+    padding: 0;
+    margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\00003148}}
+    .main-topics-bl .main-topic-content-wrapper .main-topic-content-right {
+      background: none repeat scroll 0 0 rgba(0, 0, 0, 0.47);
+      bottom: 0;
+      color: #FFFFFF;
+      padding: 5px;
+      position: absolute; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\00003154}}
+      .main-topics-bl .main-topic-content-wrapper .main-topic-content-right p {
+        display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\00003159}}
+  .main-topics-bl .main-topic2-header {
+    background: url("../images/480bg.jpg") repeat scroll 0 0 transparent;
+    height: 52px;
+    margin: 0;
+    padding: 0 10px;
+    position: relative;
+    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\00003166}}
+    .main-topics-bl .main-topic2-header a {
+      color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\00003170}}
+  .main-topics-bl .main-topic2-content-wrapper {
+    position: relative;
+    padding: 0;
+    margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\00003174}}
+    .main-topics-bl .main-topic2-content-wrapper .main-topic2-content-left {
+      width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\00003178}}
+    .main-topics-bl .main-topic2-content-wrapper .main-topic2-content-right {
+      background: none repeat scroll 0 0 rgba(0, 0, 0, 0.47);
+      bottom: 0;
+      color: #FFFFFF;
+      padding: 5px;
+      position: absolute;
+      width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_main-t\.scss}line{font-family:\00003185}}
+      .main-topics-bl .main-topic2-content-wrapper .main-topic2-content-right p {
+        display: none; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_last-news_special-bl\.scss}line{font-family:\000031}}
+.last-news_special-bl {
+  width: 40%;
+  float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_last-news_special-bl\.scss}line{font-family:\000035}}
+  .last-news_special-bl .last-news {
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+    height: 100%;
+    max-height: 985px;
+    overflow: hidden;
+    line-height: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_last-news_special-bl\.scss}line{font-family:\0000313}}
+    .last-news_special-bl .last-news .small-news2-item {
+      float: none;
+      height: auto;
+      line-height: 18px;
+      margin: 10px 0;
+      max-height: 50px;
+      overflow: hidden;
+      padding: 0;
+      text-align: left;
+      width: 210px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_last-news_special-bl\.scss}line{font-family:\0000323}}
+      .last-news_special-bl .last-news .small-news2-item .small-news2-item-link {
+        margin: 0;
+        width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_last-news_special-bl\.scss}line{font-family:\0000327}}
+      .last-news_special-bl .last-news .small-news2-item .small-news2-item-date {
+        background: none repeat scroll 0 0 #4A4A4A;
+        color: #FFFFFF;
+        padding: 0 5px;
+        text-align: center;
+        float: left;
+        font-size: 9px;
+        line-height: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_last-news_special-bl\.scss}line{font-family:\0000336}}
+      .last-news_special-bl .last-news .small-news2-item .small-news2-item-text {
+        color: #25658E;
+        clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_last-news_special-bl\.scss}line{font-family:\0000343}}
+  .last-news_special-bl .special-bl {
+    width: 50%;
+    float: left;
+    padding: 0 5px;
+    position: relative;
+    z-index: 1; }
+
+@media all and (max-width: 1300px) {
+  width: 50%;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_last-news_special-bl\.scss}line{font-family:\0000354}}
+  .last-news {
+    max-height: 635px; } }
+@media all and (max-width: 958px) {
+  width: 33%;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_last-news_special-bl\.scss}line{font-family:\0000362}}
+  .last-news {
+    width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_last-news_special-bl\.scss}line{font-family:\0000366}}
+  .special-bl {
+    bottom: 0;
+    display: block;
+    height: 210px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_last-news_special-bl\.scss}line{font-family:\0000374}}
+    .special-bl .special-bl-single {
+      float: left;
+      margin: 0 5px;
+      overflow: hidden;
+      width: 31%;
+      overflow: hidden; } }
+@media all and (max-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_last-news_special-bl\.scss}line{font-family:\0000385}}
+  .last-news {
+    max-height: 420px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_last-news_special-bl\.scss}line{font-family:\0000387}}
+    .last-news .small-news2-item {
+      width: 170px; } }
+@media all and (max-width: 600px) {
+  width: 100%;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_last-news_special-bl\.scss}line{font-family:\00003104}}
+  .last-news {
+    width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_last-news_special-bl\.scss}line{font-family:\00003107}}
+  .special-bl {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_last-news_special-bl\.scss}line{font-family:\00003112}}
+    .special-bl .special-bl-single {
+      float: left;
+      margin: 0 5px;
+      overflow: hidden;
+      width: 100%;
+      overflow: hidden; } }
+@media all and (max-width: 480px) {
+  width: 100%;
+  margin-top: 15px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_last-news_special-bl\.scss}line{font-family:\00003125}}
+  .last-news {
+    width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_last-news_special-bl\.scss}line{font-family:\00003128}}
+  .special-bl {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_last-news_special-bl\.scss}line{font-family:\00003133}}
+    .special-bl .special-bl-single {
+      float: left;
+      margin: 0 5px;
+      overflow: hidden;
+      width: 100%;
+      overflow: hidden; } }
+@media all and (max-width: 600px) {
+  width: 100%;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_last-news_special-bl\.scss}line{font-family:\00003145}}
+  .last-news {
+    width: 100%;
+    padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_last-news_special-bl\.scss}line{font-family:\00003148}}
+    .last-news .small-news2-item {
+      float: left;
+      width: 240px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_last-news_special-bl\.scss}line{font-family:\00003153}}
+  .special-bl {
+    height: auto;
+    width: 100%;
+    position: relative;
+    padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_last-news_special-bl\.scss}line{font-family:\00003158}}
+    .special-bl .special-bl-single {
+      width: 100%;
+      margin: 0; } }
+@media all and (max-width: 480px) {
+  width: 100%;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_last-news_special-bl\.scss}line{font-family:\00003167}}
+  .last-news {
+    width: 100%;
+    padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_last-news_special-bl\.scss}line{font-family:\00003170}}
+    .last-news .viewport {
+      width: 320px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_last-news_special-bl\.scss}line{font-family:\00003173}}
+    .last-news .small-news2-item {
+      float: left;
+      width: 160px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_last-news_special-bl\.scss}line{font-family:\00003179}}
+  .special-bl {
+    height: auto;
+    width: 100%;
+    position: relative;
+    padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_last-news_special-bl\.scss}line{font-family:\00003185}}
+    .special-bl .special-bl-single {
+      width: 100%;
+      margin: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_pollblock\.scss}line{font-family:\000031}}
+.pollblock_ads {
+  float: right;
+  padding: 0;
+  width: 40%;
+  position: absolute;
+  right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_pollblock\.scss}line{font-family:\000037}}
+  .pollblock_ads .pollblock {
+    margin-bottom: 15px;
+    display: block;
+    width: 50%;
+    float: right;
+    padding: 0 5px;
+    height: 420px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_pollblock\.scss}line{font-family:\0000315}}
+    .pollblock_ads .pollblock .pollblock-header {
+      background-color: #595959;
+      color: #ffffff;
+      padding: 0 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_pollblock\.scss}line{font-family:\0000320}}
+    .pollblock_ads .pollblock .pollblock-submit {
+      width: 100%;
+      border: none;
+      padding: 2px 0;
+      text-align: center;
+      background: #595959;
+      color: white;
+      cursor: pointer;
+      text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_pollblock\.scss}line{font-family:\0000329}}
+      .pollblock_ads .pollblock .pollblock-submit:hover {
+        background-color: white;
+        color: black; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_pollblock\.scss}line{font-family:\0000337}}
+  .pollblock_ads .ads-block-first .inner:first-child {
+    width: 50%;
+    float: left;
+    margin-top: 630px;
+    max-height: 345px;
+    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_pollblock\.scss}line{font-family:\0000345}}
+  .pollblock_ads .ads-block-first .inner {
+    float: right;
+    width: 50%;
+    padding: 0 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_pollblock\.scss}line{font-family:\0000350}}
+  .pollblock_ads .ads-block-first .social_container {
+    padding: 0 5px;
+    float: right;
+    width: 50%; }
+  @media all and (max-width: 1300px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_pollblock\.scss}line{font-family:\000031}}
+    .pollblock_ads {
+      position: absolute;
+      right: 0;
+      top: 635px;
+      width: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_pollblock\.scss}line{font-family:\0000361}}
+      .pollblock_ads .pollblock {
+        width: 50%;
+        float: left;
+        padding: 0 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_pollblock\.scss}line{font-family:\0000366}}
+      .pollblock_ads .ads-block-first {
+        width: 50%;
+        float: right;
+        padding: 0 5px;
+        position: relative;
+        z-index: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_pollblock\.scss}line{font-family:\0000372}}
+        .pollblock_ads .ads-block-first .inner:first-child {
+          width: 100%;
+          float: left;
+          margin-top: 0px;
+          max-height: 345px;
+          overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_pollblock\.scss}line{font-family:\0000379}}
+        .pollblock_ads .ads-block-first .inner {
+          float: right;
+          width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_pollblock\.scss}line{font-family:\0000383}}
+        .pollblock_ads .ads-block-first .social_container {
+          float: right;
+          width: 100%; } }
+  @media all and (max-width: 958px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_pollblock\.scss}line{font-family:\000031}}
+    .pollblock_ads {
+      width: 33%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_pollblock\.scss}line{font-family:\0000392}}
+      .pollblock_ads .ads-block-first {
+        width: 100%;
+        float: right;
+        padding: 0 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_pollblock\.scss}line{font-family:\0000396}}
+        .pollblock_ads .ads-block-first .inner:first-child {
+          width: 100%;
+          float: left;
+          margin-top: 225px;
+          margin-bottom: 15px;
+          max-height: 345px;
+          overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_pollblock\.scss}line{font-family:\00003104}}
+        .pollblock_ads .ads-block-first .inner {
+          float: right;
+          width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_pollblock\.scss}line{font-family:\00003108}}
+        .pollblock_ads .ads-block-first .social_container {
+          display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_pollblock\.scss}line{font-family:\00003113}}
+      .pollblock_ads .pollblock {
+        width: 100%;
+        float: left;
+        padding: 0 5px;
+        height: 350px; } }
+  @media all and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_pollblock\.scss}line{font-family:\000031}}
+    .pollblock_ads {
+      top: 420px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_pollblock\.scss}line{font-family:\00003123}}
+      .pollblock_ads .pollblock {
+        height: 470px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_pollblock\.scss}line{font-family:\00003127}}
+      .pollblock_ads .ads-block-first .inner {
+        display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_pollblock\.scss}line{font-family:\00003130}}
+      .pollblock_ads .ads-block-first .inner:first-child {
+        margin-top: 230px;
+        display: block; } }
+  @media all and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_pollblock\.scss}line{font-family:\000031}}
+    .pollblock_ads {
+      display: none; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_moscvichka\.scss}line{font-family:\000031}}
+.m-b-wr {
+  float: left;
+  width: 80%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_moscvichka\.scss}line{font-family:\000034}}
+  .m-b-wr .b-h a {
+    color: #770404 !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_moscvichka\.scss}line{font-family:\000036}}
+    .m-b-wr .b-h a:after {
+      content: ""; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_moscvichka\.scss}line{font-family:\0000311}}
+  .m-b-wr .m-b-item-wr {
+    background-color: #87AFB1;
+    float: left;
+    padding-bottom: 0.833em;
+    padding-left: 0.833em;
+    padding-top: 0.833em;
+    width: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_moscvichka\.scss}line{font-family:\0000318}}
+    .m-b-wr .m-b-item-wr .m-b-item-image {
+      border: 0.167em solid grey;
+      display: block;
+      margin-bottom: 0.833em;
+      height: 6.944em;
+      width: 90%;
+      overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_moscvichka\.scss}line{font-family:\0000326}}
+    .m-b-wr .m-b-item-wr .m-b-item-link {
+      text-decoration: none;
+      font-size: 0.9em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_moscvichka\.scss}line{font-family:\0000331}}
+    .m-b-wr .m-b-item-wr .m-b-item-main, .m-b-wr .m-b-item-wr .m-b-item-list {
+      width: 50%;
+      float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_moscvichka\.scss}line{font-family:\0000336}}
+    .m-b-wr .m-b-item-wr .m-b-item-main .m-b-item-link {
+      font-size: 1.1em;
+      text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_moscvichka\.scss}line{font-family:\0000341}}
+    .m-b-wr .m-b-item-wr .m-b-item {
+      margin-bottom: 0.833em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_moscvichka\.scss}line{font-family:\0000343}}
+      .m-b-wr .m-b-item-wr .m-b-item:last-child {
+        margin-bottom: 0; }
+  @media all and (max-width: 1300px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_moscvichka\.scss}line{font-family:\000031}}
+    .m-b-wr {
+      width: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_moscvichka\.scss}line{font-family:\0000351}}
+      .m-b-wr .moscvichka-item-single .moscvichka-item-half {
+        width: 100%; } }
+  @media all and (max-width: 958px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_moscvichka\.scss}line{font-family:\000031}}
+    .m-b-wr {
+      width: 66%; } }
+  @media all and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_moscvichka\.scss}line{font-family:\000031}}
+    .m-b-wr {
+      width: 100%; } }
+  @media all and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_moscvichka\.scss}line{font-family:\000031}}
+    .m-b-wr {
+      width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_moscvichka\.scss}line{font-family:\0000364}}
+      .m-b-wr .moscvichka-item-single {
+        width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_moscvichka\.scss}line{font-family:\0000366}}
+        .m-b-wr .moscvichka-item-single:nth-child(2) {
+          display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/blocks\/_moscvichka\.scss}line{font-family:\0000369}}
+        .m-b-wr .moscvichka-item-single .moscvichka-item-half {
+          width: 100%; } }
 
 @media (max-width: 59.875em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_960\.scss}line{font-family:\000033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/responsive\/_960\.scss}line{font-family:\000033}}
   .footer .f-team {
     margin-top: -3.5em; } }
 @media (max-width: 50em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_800\.scss}line{font-family:\000033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/responsive\/_800\.scss}line{font-family:\000033}}
   .footer .f-team {
     margin-top: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_800\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/responsive\/_800\.scss}line{font-family:\000036}}
   .footer .f-nav-wrapper {
     width: 100%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_800\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/responsive\/_800\.scss}line{font-family:\000039}}
     .footer .f-nav-wrapper .f-menu .f-nav-item {
       margin-bottom: 15px;
       width: 33%;
       float: left;
       text-align: center; } }
 @media (max-width: 37.5em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_600\.scss}line{font-family:\000033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/responsive\/_600\.scss}line{font-family:\000033}}
   .footer .f-nav-wrapper {
     width: 100%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_600\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/responsive\/_600\.scss}line{font-family:\000036}}
     .footer .f-nav-wrapper .f-menu .f-nav-item {
       width: 50%;
       float: left;
       text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_600\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/responsive\/_600\.scss}line{font-family:\0000313}}
   .footer .f-copy {
     width: 100%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/_600\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/news\/scss\/responsive\/_600\.scss}line{font-family:\0000316}}
   .footer .f-team {
     width: 100%;
     float: left; } }
